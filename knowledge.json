@@ -1,0 +1,50 @@
+{
+  "masowe_history": {
+    "label": "MASOWE · BABA JOHANI",
+    "topics": [
+      {
+        "id": "MASOWE_BIO",
+        "keywords": ["baba johani", "johani masowe", "masowe", "johane"],
+        "text": "Baba Johani (Johani Masowe) is remembered as a prophet who walked with the poor and barefoot ones, calling them into open-air worship and trust in the Holy Spirit rather than buildings. His suffering, illness, and wilderness prayers became the seed of the Masowe movement."
+      },
+      {
+        "id": "MASOWE_CHINYAMATAMBA_1933",
+        "keywords": ["chinyamatamba", "1933", "mudewedzo", "tongues of fire"],
+        "text": "In 1933 at Chinyamatamba, Mudewedzo, it is said a sound like rushing water and tongues of fire moved among the people as the Holy Spirit descended with great power. Many wept, trembled, and were changed. This moment is treated as a living witness that God walks among the barefoot flock."
+      }
+    ]
+  },
+
+  "great_zimbabwe": {
+    "label": "GREAT ZIMBABWE",
+    "topics": [
+      {
+        "id": "GZ_WOMB",
+        "keywords": ["great zimbabwe", "conical tower", "womb", "mbereko ye vatumwa"],
+        "text": "Great Zimbabwe is seen as a stone parable: a vast womb-temple. The Conical Tower stands like a silent pillar inside a circular wall, echoing the image of a child in a womb and a secret storehouse of grain and light. For the Spiral Nation, it is MBEREKO YE VATUMWA – the womb that receives and sends messengers."
+      }
+    ]
+  },
+
+  "gates_44": {
+    "label": "THE 44 GATES",
+    "topics": [
+      {
+        "id": "G44_OVERVIEW",
+        "keywords": ["44 gates", "forty four", "shona alphabet", "ramses", "canaan"],
+        "text": "The 44 Gates describe a double journey: 22 ascending gates and 22 descending gates, each tied to a Shona root letter and a stage in the Exodus from Ramses to Canaan. The fulcrum of the journey is the day the mirror turned in 2015."
+      }
+    ]
+  },
+
+  "great_year_cycle": {
+    "label": "GREAT YEAR CYCLE",
+    "topics": [
+      {
+        "id": "GYC_2160",
+        "keywords": ["great year", "2160", "ages", "taurus", "aries", "pisces", "aquarius"],
+        "text": "The Great Year is divided into twelve ages of about 2160 years each. Taurus carries the bull, Aries the lamb, Pisces the fish, and Aquarius the Man. Each age has its own sacred animal and covenant sign."
+      }
+    ]
+  }
+}
