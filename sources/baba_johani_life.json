@@ -1,0 +1,76 @@
+{
+  "entries": [
+    {
+      "ref": "Life of Baba Johani v1-v6",
+      "scroll_id": "baba_johane_life_events",
+      "verse_range": [1, 6],
+      "tags": ["baba johani", "johane masowe", "birth", "signs", "portents", "before birth", "mugwambi", "gandanzara", "divine sign", "stranger", "ox", "bones"]
+    },
+    {
+      "ref": "Life of Baba Johani v7-v9",
+      "scroll_id": "baba_johane_life_events",
+      "verse_range": [7, 9],
+      "tags": ["baba johani", "johane masowe", "birth", "mother", "saziso efi", "prophecy", "dream", "rainbow", "1914"]
+    },
+    {
+      "ref": "Life of Baba Johani v10-v14",
+      "scroll_id": "baba_johane_life_events",
+      "verse_range": [10, 14],
+      "tags": ["baba johani", "johane masowe", "baptism", "name", "st pefeni", "anglican", "rachel", "shadreck", "childhood"]
+    },
+    {
+      "ref": "Life of Baba Johani v15-v20",
+      "scroll_id": "baba_johane_life_events",
+      "verse_range": [15, 20],
+      "tags": ["baba johani", "johane masowe", "childhood", "mountains", "shena", "crosses", "teaching", "youth"]
+    },
+    {
+      "ref": "Life of Baba Johani v21-v30",
+      "scroll_id": "baba_johane_life_events",
+      "verse_range": [21, 30],
+      "tags": ["baba johani", "johane masowe", "1933", "holy spirit", "spiritual birth", "chinyamatamba", "mudewedzo", "marimba", "norton", "fire", "prophecy"]
+    },
+    {
+      "ref": "Life of Baba Johani v31-v40",
+      "scroll_id": "baba_johane_life_events",
+      "verse_range": [31, 40],
+      "tags": ["baba johani", "johane masowe", "ministry", "prophet", "wilderness", "temple", "masowe", "white robes"]
+    },
+    {
+      "ref": "Life of Baba Johani v41-v50",
+      "scroll_id": "baba_johane_life_events",
+      "verse_range": [41, 50],
+      "tags": ["baba johani", "johane masowe", "persecution", "rusape", "1955", "prison", "arrest", "trial", "white garments"]
+    },
+    {
+      "ref": "Life of Baba Johani v51-v60",
+      "scroll_id": "baba_johane_life_events",
+      "verse_range": [51, 60],
+      "tags": ["baba johani", "johane masowe", "port elizabeth", "south africa", "1951", "1957", "1959", "jordan", "teachings"]
+    },
+    {
+      "ref": "Life of Baba Johani v61-v70",
+      "scroll_id": "baba_johane_life_events",
+      "verse_range": [61, 70],
+      "tags": ["baba johani", "johane masowe", "teachings", "body", "temple", "resurrection", "new world", "vision", "sabbath"]
+    },
+    {
+      "ref": "Life of Baba Johani v71-v80",
+      "scroll_id": "baba_johane_life_events",
+      "verse_range": [71, 80],
+      "tags": ["baba johani", "johane masowe", "visions", "dreams", "prophecy", "1973", "1954", "1953", "death"]
+    },
+    {
+      "ref": "Life of Baba Johani v81-v90",
+      "scroll_id": "baba_johane_life_events",
+      "verse_range": [81, 90],
+      "tags": ["baba johani", "johane masowe", "legacy", "death", "masowe church", "africa", "prophet", "ministry locations"]
+    },
+    {
+      "ref": "Life of Baba Johani v91-v99",
+      "scroll_id": "baba_johane_life_events",
+      "verse_range": [91, 99],
+      "tags": ["baba johani", "johane masowe", "dates", "1914", "1933", "birth", "holy spirit", "gandanzara", "chinyamatamba", "summary"]
+    }
+  ]
+}
