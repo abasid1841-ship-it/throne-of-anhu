@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABASID 1841 · THRONE OF ANHU</title>
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/static/styles.css?v=20251226d" as="style" />
+    <link rel="preload" href="/static/icon_ra.png" as="image" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/styles.css?v=20251226d" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/static/icon_ra.png" />
+    
+    <!-- PWA Support -->
+    <link rel="manifest" href="/static/manifest.json" />
+    <meta name="theme-color" content="#d4af37" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Throne of Anhu" />
+    <link rel="apple-touch-icon" href="/static/icon_ra.png" />
+    
+    <!-- Inline critical styles for instant first paint -->
+    <style>
+      body{margin:0;background:#1a1a2e;color:#e0d6c8;font-family:system-ui,sans-serif}
+      .throne-header{display:flex;justify-content:space-between;padding:12px 16px;background:#0d0d1a}
+      .main-title{color:#d4af37;font-size:1.2rem;font-weight:700}
+    </style>
+  </head>
+
+  <body class="mode-ra">
+    <!-- HEADER -->
+    <header class="throne-header persona-ra persona-transition">
+      <div class="brand-left">
+        <div class="avatar-ring">
+          <img
+            id="personaAvatar"
+            src="/static/icon_ra.png"
+            data-ra="/static/icon_ra.png"
+            data-dzi="/static/icon_dzi.png"
+            data-ma="/static/icon_ma.png"
+            alt="Throne Avatar"
+            loading="eager"
+            fetchpriority="high"
+          />
+        </div>
+        <div>
+          <div class="main-title">ABASID 1841</div>
+          <div class="subtitle-line">THRONE OF ANHU · LION OF JUDAH</div>
+        </div>
+      </div>
+
+      <div class="brand-right">
+        <div id="authContainer" class="auth-container">
+          <a id="loginBtn" href="/auth/login" class="auth-btn login-btn">LOG IN</a>
+          <div id="userMenu" class="user-menu hidden">
+            <img id="userAvatar" src="" alt="" class="user-avatar" />
+            <span id="userName" class="user-name"></span>
+            <button id="upgradeBtn" class="upgrade-btn">Upgrade</button>
+            <button id="billingBtn" class="billing-btn hidden">Billing</button>
+            <button id="rushangaBtn" class="rushanga-btn hidden">RUSHANGA</button>
+            <a id="logoutBtn" href="/auth/logout" class="auth-btn logout-btn">Log Out</a>
+          </div>
+        </div>
+        <span id="hourglass" class="hourglass">⏳</span>
+      </div>
+    </header>
+
+    <!-- TOP CONTROLS -->
+    <div class="top-controls">
+      <div class="controls-row-1">
+        <div class="top-left">
+          <div class="language-label">LANGUAGE</div>
+          <select id="languageSelect" class="language-select">
+            <option value="ENGLISH">English</option>
+            <option value="SHONA">Shona</option>
+            <option value="KISWAHILI">Kiswahili</option>
+            <option value="ZULU">Zulu</option>
+            <option value="XHOSA">isiXhosa</option>
+            <option value="TSWANA">Setswana</option>
+            <option value="VENDA">Tshivenda</option>
+            <option value="NYANJA">Chinyanja</option>
+            <option value="BEMBA">Bemba</option>
+            <option value="YORUBA">Yorùbá</option>
+            <option value="HAUSA">Hausa</option>
+            <option value="IGBO">Igbo</option>
+            <option value="OROMO">Afaan Oromoo</option>
+            <option value="AMHARIC">አማርኛ (Amharic)</option>
+            <option value="TIGRINYA">ትግርኛ (Tigrinya)</option>
+            <option value="HEBREW">עברית (Hebrew)</option>
+            <option value="ARABIC">العربية (Arabic)</option>
+            <option value="HINDI">हिन्दी (Hindi)</option>
+            <option value="SANSKRIT">संस्कृतम् (Sanskrit)</option>
+            <option value="CHINESE">中文 (Chinese)</option>
+            <option value="FRENCH">Français</option>
+            <option value="PORTUGUESE">Português</option>
+            <option value="GERMAN">Deutsch</option>
+            <option value="DUTCH">Nederlands</option>
+            <option value="SWEDISH">Svenska</option>
+            <option value="DANISH">Dansk</option>
+            <option value="POLISH">Polski</option>
+            <option value="RUSSIAN">Русский (Russian)</option>
+            <option value="ROMANIAN">Română</option>
+            <option value="TURKISH">Türkçe</option>
+            <option value="GREEK">Ελληνικά (Greek)</option>
+            <option value="LATIN">Latina</option>
+            <option value="IRISH">Gaeilge (Irish)</option>
+            <option value="WELSH">Cymraeg (Welsh)</option>
+            <option value="GEORGIAN">ქართული (Georgian)</option>
+            <option value="AFRIKAANS">Afrikaans</option>
+            <option value="JAMAICAN_PATOIS">Jamaican Patois</option>
+          </select>
+        </div>
+        <div class="mode-buttons">
+          <button type="button" class="mode-btn">Outer Court</button>
+          <button type="button" class="mode-btn">Inner Court</button>
+          <button type="button" class="mode-btn">Holy of Holies</button>
+        </div>
+      </div>
+      <div class="controls-row-2">
+        <div class="row2-left">
+          <a href="https://t.me/ThroneofAnhuBot" target="_blank" rel="noopener" class="social-circle social-telegram" title="Telegram">
+            <svg viewBox="0 0 240 240">
+              <circle cx="120" cy="120" r="120" />
+              <path d="M179 72L57 121c-4 2-4 7 0 9l30 9 12 39c1 4 6 5 9 2l17-17 30 22c3 2 7 1 8-3l21-104c1-5-3-9-8-7z M100 151l4 23 5-17 45-45-57 39z" class="paper" />
+            </svg>
+          </a>
+          <a href="https://wa.me/0000000000" target="_blank" rel="noopener" class="social-circle social-whatsapp" title="WhatsApp">
+            <svg viewBox="0 0 512 512">
+              <path d="M256 0C115 0 0 115 0 256c0 45 12 88 34 125L16 512l135-17c35 19 74 29 115 29 141 0 256-115 256-256S397 0 256 0z" />
+              <path d="M391 361c-6 18-30 33-49 37-13 3-30 5-87-19-73-30-120-104-124-109-4-5-30-40-30-77s19-55 26-62c6-6 16-9 26-9h18c6 0 14 1 21 16l29 69c2 4 3 8 0 13s-5 8-9 12l-13 15c-3 3-6 6-3 11 3 6 14 24 30 39 20 18 37 24 44 27 4 2 9 1 12-2l20-24c3-4 7-5 12-3l64 30c9 4 15 9 17 14 2 6 2 16-1 24z" class="phone" />
+            </svg>
+          </a>
+          <a href="https://www.youtube.com/@ThroneofAnhu" target="_blank" rel="noopener" class="social-circle social-youtube" title="YouTube">
+            <svg viewBox="0 0 24 24">
+              <rect x="2" y="5" width="20" height="14" rx="3" fill="#FF0000"/>
+              <polygon points="10,8 16,12 10,16" fill="#fff"/>
+            </svg>
+          </a>
+          <a href="https://twitter.com/ThroneofAnhu" target="_blank" rel="noopener" class="social-circle social-twitter" title="X/Twitter">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="12" fill="#000"/>
+              <path d="M13.5 10.5L18.5 5H17L12.5 9.5L9 5H4L9.5 13L4 19H5.5L10.5 14L14.5 19H19.5L13.5 10.5Z" fill="#fff"/>
+            </svg>
+          </a>
+          <a href="https://instagram.com/ThroneofAnhu" target="_blank" rel="noopener" class="social-circle social-instagram" title="Instagram">
+            <svg viewBox="0 0 24 24">
+              <defs>
+                <linearGradient id="igGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+                  <stop offset="0%" style="stop-color:#FFDC80"/>
+                  <stop offset="25%" style="stop-color:#F77737"/>
+                  <stop offset="50%" style="stop-color:#E1306C"/>
+                  <stop offset="75%" style="stop-color:#C13584"/>
+                  <stop offset="100%" style="stop-color:#833AB4"/>
+                </linearGradient>
+              </defs>
+              <rect x="2" y="2" width="20" height="20" rx="5" fill="url(#igGrad)"/>
+              <circle cx="12" cy="12" r="4" stroke="#fff" stroke-width="1.5" fill="none"/>
+              <circle cx="17.5" cy="6.5" r="1.2" fill="#fff"/>
+            </svg>
+          </a>
+          <a href="https://tiktok.com/@ThroneofAnhu" target="_blank" rel="noopener" class="social-circle social-tiktok" title="TikTok">
+            <svg viewBox="0 0 24 24">
+              <rect x="2" y="2" width="20" height="20" rx="4" fill="#000"/>
+              <path d="M16.5 8.5V14c0 2.5-2 4.5-4.5 4.5S7.5 16.5 7.5 14s2-4.5 4.5-4.5v2c-1.4 0-2.5 1.1-2.5 2.5s1.1 2.5 2.5 2.5 2.5-1.1 2.5-2.5V5.5h2c0 2 1.5 3 3 3v2c-1 0-2-.3-2.5-.5z" fill="#25F4EE"/>
+              <path d="M15.5 7.5V13c0 2.5-2 4.5-4.5 4.5S6.5 15.5 6.5 13s2-4.5 4.5-4.5v2c-1.4 0-2.5 1.1-2.5 2.5s1.1 2.5 2.5 2.5 2.5-1.1 2.5-2.5V4.5h2c0 2 1.5 3 3 3v2c-1 0-2-.3-2.5-.5z" fill="#FE2C55"/>
+            </svg>
+          </a>
+          <a href="https://facebook.com/ThroneofAnhu" target="_blank" rel="noopener" class="social-circle social-facebook" title="Facebook">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="12" fill="#1877F2"/>
+              <path d="M16.5 15.5l.5-3h-3v-2c0-.8.4-1.5 1.5-1.5h1.5V6.5s-1.4-.3-2.7-.3c-2.8 0-4.6 1.7-4.6 4.8v2.5h-3v3h3v8h4v-8h2.3z" fill="#fff"/>
+            </svg>
+          </a>
+        </div>
+        <div class="row2-right">
+          <button id="galleryBtn" class="gallery-button-compact">GALLERY</button>
+          <button id="fellowshipBtn" class="fellowship-button-compact">MASOWE</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CLEAR CHAT BUTTON -->
+    <button id="clearChatBtn" class="rail-clear-btn">
+      ✦ CLEAR
+    </button>
+
+    <!-- CHAT HISTORY SIDEBAR -->
+    <div id="historySidebar" class="history-sidebar hidden">
+      <div class="history-header">
+        <span class="history-title">Chat History</span>
+        <button id="closeHistoryBtn" class="history-close-btn">×</button>
+      </div>
+      <button id="newChatBtn" class="new-chat-btn">+ New Chat</button>
+      <div id="historyList" class="history-list"></div>
+    </div>
+
+    <!-- HISTORY TOGGLE BUTTON -->
+    <button id="historyToggleBtn" class="history-toggle-btn hidden">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M3 12h18M3 6h18M3 18h18"/>
+      </svg>
+    </button>
+
+    <!-- PERSONA RAIL · RA · DZI · MA -->
+    <div class="persona-rail">
+      <button
+        id="personaRaBtn"
+        type="button"
+        class="persona-pill persona-pill-ra active"
+      >
+        RA
+      </button>
+      <button
+        id="personaDziBtn"
+        type="button"
+        class="persona-pill persona-pill-dzi"
+      >
+        DZI
+      </button>
+      <button
+        id="personaMaBtn"
+        type="button"
+        class="persona-pill persona-pill-ma"
+      >
+        MA
+      </button>
+    </div>
+
+    <!-- TYPING INDICATOR -->
+    <div id="typingIndicator" class="typing-indicator hidden">
+      <span class="typing-label">RA is speaking…</span>
+      <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    </div>
+
+    <!-- PIN BAR -->
+    <div id="pinBar" class="pin-bar hidden">
+      <button id="pinnedScrollChip" class="pin-chip">
+        <span id="pinnedScrollTitle">Pinned scroll</span>
+      </button>
+      <button id="clearPinBtn" class="pin-clear">✕</button>
+    </div>
+
+    <!-- HOUSE OF WISDOM · SOURCES TOGGLE BAR -->
+    <div id="witnessToggleBar" class="witness-toggle-bar hidden">
+      <button
+        id="toggleWitnessBtn"
+        type="button"
+        class="witness-toggle-btn"
+      >
+        🏛️ SOURCES · HOUSE OF WISDOM
+      </button>
+    </div>
+
+    <!-- MAIN CHAT -->
+    <main class="throne-main">
+      <div class="chat-window">
+        <div id="messages" class="messages"></div>
+      </div>
+    </main>
+
+    <!-- HOUSE OF WISDOM · SOURCES PANEL -->
+    <div id="witnessPanel" class="witness-panel hidden">
+      <div class="witness-panel-header">
+        <span class="witness-title">HOUSE OF WISDOM · SOURCES</span>
+        <button
+          id="closeWitnessBtn"
+          type="button"
+          class="witness-close-btn"
+        >
+          ×
+        </button>
+      </div>
+      <div id="witnessContent" class="witness-content"></div>
+    </div>
+
+    <!-- INPUT BAR -->
+    <form id="chatForm" class="chat-input-bar">
+      <textarea
+        id="userInput"
+        class="chat-input"
+        rows="1"
+        placeholder="Type a message to the Throne…"
+      ></textarea>
+      <div class="input-action-rail">
+        <button id="voiceInputBtn" type="button" class="voice-input-button" title="Hold to speak">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm-1 1.93c-3.94-.49-7-3.85-7-7.93h2c0 3.31 2.69 6 6 6s6-2.69 6-6h2c0 4.08-3.06 7.44-7 7.93V20h4v2H8v-2h4v-4.07z"/>
+          </svg>
+        </button>
+        <button id="sendBtn" type="submit" class="send-button">
+          ➤
+        </button>
+      </div>
+    </form>
+
+    <!-- GALLERY MODAL -->
+    <div id="galleryModal" class="gallery-modal hidden">
+      <div class="gallery-modal-backdrop"></div>
+      <div class="gallery-modal-content">
+        <div class="gallery-modal-header">
+          <h2>Sacred Gallery</h2>
+          <button id="adminUploadBtn" type="button" class="admin-upload-btn hidden" title="Upload Media">+ Add</button>
+          <button id="closeGalleryModal" type="button" class="gallery-modal-close">×</button>
+        </div>
+
+        <div class="gallery-tabs">
+          <button class="gallery-tab active" data-tab="videos">Videos</button>
+          <button class="gallery-tab" data-tab="pdfs">PDFs</button>
+          <button class="gallery-tab" data-tab="scrolls">Scrolls</button>
+          <button class="gallery-tab" data-tab="music">Music</button>
+          <button class="gallery-tab" data-tab="images">Images</button>
+        </div>
+
+        <div class="gallery-search-row">
+          <input id="gallerySearchInput" class="gallery-search-input" placeholder="Search gallery..." />
+          <button id="gallerySearchBtn" type="button" class="gallery-search-btn">🔍</button>
+          <button id="gallerySortBtn" type="button" class="gallery-sort-btn" onclick="toggleGallerySort()">↓ Newest</button>
+        </div>
+
+        <div id="galleryContent" class="gallery-content">
+          <div id="galleryVideos" class="gallery-section active">
+            <div class="video-language-tabs">
+              <button class="video-lang-tab active" data-lang="">All</button>
+              <button class="video-lang-tab" data-lang="ENGLISH">English</button>
+              <button class="video-lang-tab" data-lang="SHONA">Shona</button>
+              <button class="video-lang-tab" data-lang="KISWAHILI">Kiswahili</button>
+              <button class="video-lang-tab" data-lang="ZULU_NDEBELE">Zulu/Ndebele</button>
+            </div>
+            <div class="gallery-grid" id="videosGrid"></div>
+          </div>
+          <div id="galleryPdfs" class="gallery-section">
+            <div class="pdf-language-tabs">
+              <button class="pdf-lang-tab active" data-lang="">All</button>
+              <button class="pdf-lang-tab" data-lang="ENGLISH">English</button>
+              <button class="pdf-lang-tab" data-lang="SHONA">Shona</button>
+              <button class="pdf-lang-tab" data-lang="KISWAHILI">Kiswahili</button>
+              <button class="pdf-lang-tab" data-lang="ZULU_NDEBELE">Zulu/Ndebele</button>
+            </div>
+            <div class="gallery-grid" id="pdfsGrid"></div>
+          </div>
+          <div id="galleryScrolls" class="gallery-section">
+            <div id="scrollList" class="scroll-list"><ul></ul></div>
+          </div>
+          <div id="galleryMusic" class="gallery-section">
+            <div class="gallery-grid" id="musicGrid"></div>
+          </div>
+          <div id="galleryImages" class="gallery-section">
+            <div class="gallery-grid" id="imagesGrid"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GALLERY ITEM DETAIL MODAL -->
+    <div id="galleryDetailModal" class="gallery-detail-modal hidden">
+      <div class="gallery-detail-backdrop"></div>
+      <div class="gallery-detail-content">
+        <div class="gallery-detail-header">
+          <h3 id="galleryDetailTitle"></h3>
+          <button id="closeGalleryDetail" type="button" class="gallery-detail-close">×</button>
+        </div>
+        <div id="galleryDetailMedia" class="gallery-detail-media"></div>
+        <div id="galleryDetailDescription" class="gallery-detail-description"></div>
+        <div class="gallery-detail-actions">
+          <button id="galleryDownloadBtn" class="gallery-download-btn hidden">Download</button>
+          <div id="galleryAdminActions" class="gallery-admin-actions hidden"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ADMIN UPLOAD MODAL -->
+    <div id="uploadModal" class="upload-modal hidden">
+      <div class="upload-modal-backdrop"></div>
+      <div class="upload-modal-content">
+        <div class="upload-modal-header">
+          <h3>Upload to Gallery</h3>
+          <button id="closeUploadModal" type="button" class="upload-modal-close">×</button>
+        </div>
+        <form id="uploadForm" class="upload-form">
+          <div class="upload-form-group">
+            <label>Type</label>
+            <select id="uploadType" name="item_type" required>
+              <option value="video">Video</option>
+              <option value="pdf">PDF</option>
+              <option value="music">Music</option>
+              <option value="image">Image</option>
+            </select>
+          </div>
+          <div class="upload-form-group" id="uploadLanguageGroup">
+            <label>Language Folder (for videos)</label>
+            <select id="uploadLanguage" name="category">
+              <option value="">-- Select Language --</option>
+              <option value="ENGLISH">English</option>
+              <option value="SHONA">Shona</option>
+              <option value="KISWAHILI">Kiswahili</option>
+              <option value="ZULU_NDEBELE">Zulu/Ndebele</option>
+            </select>
+          </div>
+          <div class="upload-form-group">
+            <label>Title</label>
+            <input type="text" id="uploadTitle" name="title" placeholder="Enter title..." required />
+          </div>
+          <div class="upload-form-group">
+            <label>Description</label>
+            <textarea id="uploadDescription" name="description" placeholder="Enter description..." rows="3"></textarea>
+          </div>
+          <div class="upload-form-group upload-method-toggle">
+            <label>
+              <input type="radio" name="upload_method" value="file" checked /> Upload File
+            </label>
+            <label>
+              <input type="radio" name="upload_method" value="url" /> Paste URL
+            </label>
+          </div>
+          <div class="upload-form-group" id="uploadFileGroup">
+            <label>Choose File (Max 100MB)</label>
+            <input type="file" id="uploadFile" name="file" accept="video/*,audio/*,image/*" />
+            <small>Video: MP4, WebM | Audio: MP3, WAV, M4A | Image: JPG, PNG, WebP</small>
+          </div>
+          <div class="upload-form-group hidden" id="uploadUrlGroup">
+            <label>File URL (YouTube, etc.)</label>
+            <input type="url" id="uploadUrl" name="file_url" placeholder="https://..." />
+          </div>
+          <div class="upload-form-group">
+            <label><input type="checkbox" id="uploadSubscribersOnly" name="subscribers_only" /> Subscribers Only</label>
+          </div>
+          <div class="upload-form-actions">
+            <button type="button" id="cancelUploadBtn" class="cancel-upload-btn">Cancel</button>
+            <button type="submit" id="submitUploadBtn" class="submit-upload-btn">Upload</button>
+          </div>
+          <div id="uploadProgress" class="upload-progress hidden">
+            <div class="upload-progress-bar"></div>
+            <span class="upload-progress-text">Uploading...</span>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- MASOWE FELLOWSHIP MODAL -->
+    <div id="fellowshipModal" class="fellowship-modal hidden">
+      <div class="fellowship-modal-backdrop"></div>
+      <div class="fellowship-modal-content masowe-chat-modal">
+        <div class="fellowship-modal-header masowe-header">
+          <h2>Masowe Fellowship</h2>
+          <div class="masowe-header-right">
+            <span id="masoweOnlineCount" class="masowe-online-count">0 online</span>
+            <button id="closeFellowshipModal" type="button" class="fellowship-modal-close">×</button>
+          </div>
+        </div>
+        
+        <div id="masoweServiceBanner" class="masowe-service-banner hidden">
+          <span>🙏 Service in Progress - Chat Muted</span>
+          <a id="joinTiktokBtn" href="#" target="_blank" class="join-tiktok-btn hidden">Join TikTok Live</a>
+        </div>
+        
+        <div id="fellowshipLoginPrompt" class="fellowship-login-prompt">
+          <p>Please log in and subscribe to join the Fellowship.</p>
+          <a href="/auth/login" class="fellowship-login-btn">Log In</a>
+        </div>
+        
+        <div id="fellowshipContent" class="fellowship-content hidden">
+          <div id="masoweChatMessages" class="masowe-chat-messages"></div>
+          
+          <div id="masoweAdminPanel" class="masowe-admin-panel hidden">
+            <button id="startServiceBtn" class="admin-action-btn">Start Service</button>
+            <button id="endServiceBtn" class="admin-action-btn hidden">End Service</button>
+            <button id="muteAllBtn" class="admin-action-btn">Mute All</button>
+            <button id="unmuteAllBtn" class="admin-action-btn">Unmute All</button>
+            <button id="panelMgmtBtn" class="admin-action-btn">12 Panel</button>
+            <button id="clearPanelBtn" class="admin-action-btn">Clear Panel</button>
+          </div>
+          
+          <div id="masoweMutedNotice" class="masowe-muted-notice hidden">
+            <span>You are muted and cannot send messages</span>
+          </div>
+          
+          <div id="masoweReplyIndicator" class="masowe-reply-indicator hidden"></div>
+          
+          <form id="masoweChatForm" class="masowe-chat-form">
+            <button id="masoweVoiceBtn" type="button" class="masowe-voice-btn" title="Hold to record">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm-1 1.93c-3.94-.49-7-3.85-7-7.93h2c0 3.31 2.69 6 6 6s6-2.69 6-6h2c0 4.08-3.06 7.44-7 7.93V20h4v2H8v-2h4v-4.07z"/>
+              </svg>
+            </button>
+            <input type="text" id="masoweChatInput" class="masowe-chat-input" placeholder="Type a message..." maxlength="500" />
+            <button type="submit" id="masoweSendBtn" class="masowe-send-btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 12 PANEL MANAGEMENT MODAL -->
+    <div id="panelModal" class="panel-modal hidden">
+      <div class="panel-modal-backdrop"></div>
+      <div class="panel-modal-content">
+        <div class="panel-modal-header">
+          <h3>12 Panel Members</h3>
+          <button id="closePanelModal" type="button" class="panel-modal-close">×</button>
+        </div>
+        <div id="panelMembersList" class="panel-members-list"></div>
+        <div class="panel-add-section">
+          <input type="text" id="panelUserSearch" placeholder="Search user to add..." />
+          <button id="addToPanelBtn" type="button" class="add-panel-btn">Add to Panel</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEW THREAD MODAL -->
+    <div id="newThreadModal" class="new-thread-modal hidden">
+      <div class="new-thread-backdrop"></div>
+      <div class="new-thread-content">
+        <div class="new-thread-header">
+          <h3>Start a Discussion</h3>
+          <button id="closeNewThread" type="button" class="new-thread-close">×</button>
+        </div>
+        <form id="newThreadForm">
+          <input type="text" id="threadTitle" placeholder="Discussion title..." required maxlength="200" />
+          <textarea id="threadBody" placeholder="Share your thoughts..." required maxlength="3000"></textarea>
+          <button type="submit" class="submit-thread-btn">Post Discussion</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- THREAD DETAIL MODAL -->
+    <div id="threadDetailModal" class="thread-detail-modal hidden">
+      <div class="thread-detail-backdrop"></div>
+      <div class="thread-detail-content">
+        <div class="thread-detail-header">
+          <button id="backToThreads" type="button" class="back-to-threads">← Back</button>
+          <button id="closeThreadDetail" type="button" class="thread-detail-close">×</button>
+        </div>
+        <div id="threadDetailBody" class="thread-detail-body"></div>
+        <div id="repliesList" class="replies-list"></div>
+        <form id="replyForm" class="reply-form">
+          <textarea id="replyText" placeholder="Add your reply..." required maxlength="2000"></textarea>
+          <button type="submit" class="submit-reply-btn">Reply</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- SCROLL LIBRARY MODAL (Legacy - kept for compatibility) -->
+    <div id="scrollModal" class="scroll-modal hidden">
+      <div class="scroll-modal-backdrop"></div>
+      <div class="scroll-modal-content">
+        <div class="scroll-modal-header">
+          <h2>Scroll Library</h2>
+          <button
+            id="closeScrollModal"
+            type="button"
+            class="scroll-modal-close"
+          >
+            ×
+          </button>
+        </div>
+
+        <p class="scroll-modal-intro">
+          Click a scroll to preview it, then open it fully or pin a section.
+        </p>
+
+        <div class="scroll-search-row">
+          <input
+            id="scrollSearchInput"
+            class="scroll-search-input"
+            placeholder="Filter scroll titles…"
+          />
+          <button
+            id="scrollSearchBtn"
+            type="button"
+            class="scroll-search-btn"
+          >
+            🔍
+          </button>
+        </div>
+
+        <div id="scrollListLegacy" class="scroll-list">
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCROLL PREVIEW MODAL -->
+    <div id="scrollPreviewModal" class="scroll-preview-modal hidden">
+      <div class="scroll-preview-backdrop"></div>
+      <div class="scroll-preview-card">
+        <div
+          style="display:flex;justify-content:space-between;align-items:center;gap:8px;"
+        >
+          <div>
+            <div
+              id="scrollPreviewTitle"
+              class="scroll-preview-title"
+            ></div>
+            <div
+              id="scrollPreviewSeries"
+              class="scroll-preview-series"
+            ></div>
+          </div>
+          <button
+            id="scrollPreviewCloseBtn"
+            type="button"
+            class="scroll-preview-close"
+          >
+            ×
+          </button>
+        </div>
+
+        <div id="scrollPreviewBody" class="scroll-preview-body"></div>
+
+        <div class="scroll-preview-footer">
+          <button
+            id="scrollPreviewCancelBtn"
+            type="button"
+            class="scroll-preview-btn ghost"
+          >
+            Cancel
+          </button>
+          <button
+            id="scrollPreviewOpenFullBtn"
+            type="button"
+            class="scroll-preview-btn primary"
+          >
+            Open Full Scroll
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRICING MODAL -->
+    <div id="pricingModal" class="pricing-modal hidden">
+      <div class="pricing-modal-content">
+        <div class="pricing-modal-header">
+          <h2 class="pricing-title">Unlock the Full Temple</h2>
+          <button id="closePricingBtn" type="button" class="pricing-close-btn">×</button>
+        </div>
+        
+        <div class="pricing-cards">
+          <div class="pricing-card free-card">
+            <div class="pricing-card-header">
+              <h3>Free</h3>
+              <div class="pricing-price">$0<span>/month</span></div>
+            </div>
+            <ul class="pricing-features">
+              <li>3 questions per day</li>
+              <li>Basic scroll access</li>
+              <li>All three courts (RA, DZI, MA)</li>
+            </ul>
+            <div class="pricing-card-footer">
+              <span class="current-plan-badge" id="freePlanBadge">Current Plan</span>
+            </div>
+          </div>
+          
+          <div class="pricing-card seeker-card">
+            <div class="pricing-card-header">
+              <h3>Seeker</h3>
+              <div class="pricing-price">$10<span>/month</span></div>
+            </div>
+            <ul class="pricing-features">
+              <li>20 questions per day</li>
+              <li>Full scroll library access</li>
+              <li>Chat history saved</li>
+              <li>Priority response</li>
+            </ul>
+            <div class="pricing-card-footer">
+              <button id="subscribeSeekerBtn" class="subscribe-btn">Subscribe Now</button>
+              <button id="manageBillingBtn" class="manage-billing-btn hidden">Manage Billing</button>
+            </div>
+          </div>
+
+          <div class="pricing-card premium-card featured">
+            <div class="featured-badge">Best Value</div>
+            <div class="pricing-card-header">
+              <h3>Premium</h3>
+              <div class="pricing-price">$20<span>/month</span></div>
+            </div>
+            <ul class="pricing-features">
+              <li>45 questions per day</li>
+              <li>Full scroll library access</li>
+              <li>Chat history saved</li>
+              <li>Priority response</li>
+              <li>Extended communion</li>
+            </ul>
+            <div class="pricing-card-footer">
+              <button id="subscribePremiumBtn" class="subscribe-btn premium-subscribe-btn">Subscribe Now</button>
+            </div>
+          </div>
+        </div>
+        
+        <p class="pricing-note">Powered by Stripe. Cancel anytime.</p>
+
+        <!-- WhatsApp Account Linking -->
+        <div id="waLinkSection" class="wa-link-section hidden">
+          <div class="wa-link-divider">
+            <span>Link WhatsApp</span>
+          </div>
+          <div id="waLinkStatus" class="wa-link-status"></div>
+          <div id="waLinkCodeBox" class="wa-link-code-box hidden">
+            <p class="wa-link-code-label">Send this to the Throne WhatsApp number:</p>
+            <div class="wa-link-code-display">
+              <span class="wa-link-code" id="waLinkCodeText"></span>
+              <button class="wa-copy-btn" onclick="wasCopyCode()">Copy</button>
+            </div>
+            <p class="wa-link-code-instruction">Type: <strong>LINK <span id="waLinkCodeInline"></span></strong></p>
+            <p class="wa-link-code-expires">Expires in 15 minutes</p>
+          </div>
+          <button id="waGenerateCodeBtn" class="wa-generate-btn" onclick="wasGenerateCode()">Generate Link Code</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- RUSHANGA ADMIN PANEL -->
+    <div id="rushangaModal" class="rushanga-modal hidden" style="position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.95);z-index:10000;display:flex;align-items:center;justify-content:center;padding:10px;">
+      <div class="rushanga-modal-content" style="background:linear-gradient(135deg,#0d0d1a,#1a1a2e);border-radius:16px;max-width:600px;width:100%;max-height:90vh;overflow:hidden;border:1px solid rgba(212,175,55,0.3);display:flex;flex-direction:column;">
+        <div class="rushanga-modal-header" style="display:flex;justify-content:space-between;align-items:center;padding:16px 20px;border-bottom:1px solid rgba(212,175,55,0.2);background:linear-gradient(135deg,#0d0d1a,#1a1a2e);flex-shrink:0;">
+          <h2 class="rushanga-title" style="color:#d4af37;font-size:1.2rem;font-weight:700;margin:0;">🦁 RUSHANGA — Admin Panel</h2>
+          <button id="closeRushangaBtn" type="button" class="rushanga-close-btn" style="background:transparent;border:none;color:#9ca3af;font-size:1.8rem;cursor:pointer;line-height:1;">×</button>
+        </div>
+        
+        <div class="rushanga-tabs" style="display:flex;border-bottom:1px solid rgba(212,175,55,0.2);background:rgba(0,0,0,0.5);flex-shrink:0;">
+          <button class="rushanga-tab active" data-tab="subscribers" style="flex:1;padding:12px 16px;background:rgba(212,175,55,0.1);border:none;border-bottom:2px solid #d4af37;color:#d4af37;font-weight:600;font-size:0.9rem;cursor:pointer;">Subscribers</button>
+          <button class="rushanga-tab" data-tab="grant" style="flex:1;padding:12px 16px;background:transparent;border:none;color:#9ca3af;font-weight:600;font-size:0.9rem;cursor:pointer;">Grant Access</button>
+        </div>
+        
+        <div id="rushangaSubscribersTab" class="rushanga-tab-content" style="padding:16px 20px;overflow-y:auto;flex:1;min-height:0;">
+          <div id="rushangaStats" class="rushanga-stats" style="display:flex;gap:10px;margin-bottom:16px;justify-content:space-between;"></div>
+          <div class="rushanga-search-row" style="display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap;">
+            <input id="rushangaSearchInput" type="text" placeholder="Search by email..." class="rushanga-search" style="flex:1;min-width:150px;background:rgba(30,27,75,0.4);border:1px solid rgba(212,175,55,0.2);color:#e5e7eb;padding:10px 14px;border-radius:8px;font-size:0.9rem;" />
+            <button id="rushangaRefreshBtn" class="rushanga-refresh-btn" style="background:rgba(212,175,55,0.15);border:1px solid rgba(212,175,55,0.3);color:#d4af37;padding:8px 12px;border-radius:6px;cursor:pointer;font-weight:600;font-size:0.8rem;">↻ Refresh</button>
+          </div>
+          <div id="rushangaSubscribersList" class="rushanga-subscribers-list" style="display:flex;flex-direction:column;gap:12px;">
+            <p class="rushanga-loading" style="color:#9ca3af;text-align:center;padding:30px;">Loading subscribers...</p>
+          </div>
+        </div>
+        
+        <div id="rushangaGrantTab" class="rushanga-tab-content hidden">
+          <div class="rushanga-grant-form">
+            <div class="rushanga-form-group">
+              <label>Email Address</label>
+              <input id="grantEmail" type="email" placeholder="user@example.com" class="rushanga-input" />
+            </div>
+            <div class="rushanga-form-group">
+              <label>Access Duration</label>
+              <select id="grantDuration" class="rushanga-select">
+                <option value="1_week">1 Week</option>
+                <option value="1_month">1 Month</option>
+                <option value="1_year">1 Year</option>
+                <option value="unlimited">Unlimited</option>
+              </select>
+            </div>
+            <div class="rushanga-form-group">
+              <label>Note (optional)</label>
+              <input id="grantNote" type="text" placeholder="Reason for granting access" class="rushanga-input" />
+            </div>
+            <button id="grantAccessBtn" class="rushanga-grant-btn">Grant Access</button>
+            <div id="grantResult" class="rushanga-result hidden"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ANI VAULT PANEL -->
+    <div id="vaultPanel" class="vault-panel hidden">
+      <div
+        style="display:flex;justify-content:space-between;align-items:center;gap:8px;"
+      >
+        <div class="vault-title">ANI Vault</div>
+        <button id="closeVaultBtn" class="vault-close-btn" type="button">
+          ×
+        </button>
+      </div>
+
+      <div class="vault-search-row">
+        <input
+          id="vaultSearchInput"
+          class="vault-search-input"
+          placeholder="Search the Vault…"
+        />
+        <button id="vaultSearchBtn" class="vault-search-btn" type="button">
+          🔍
+        </button>
+      </div>
+
+      <div class="vault-body">
+        <div id="vaultList" class="vault-list"></div>
+        <div class="vault-detail">
+          <div id="vaultDetailTitle" class="vault-detail-title"></div>
+          <div id="vaultDetailMeta" class="vault-detail-meta"></div>
+          <div id="vaultDetailText" class="vault-detail-text"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS - deferred for faster page load -->
+    <script src="/static/persona.js" defer></script>
+    <script src="/static/app.js" defer></script>
+    
+    <!-- Service Worker Registration - after page load -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/static/sw.js')
+            .then(reg => console.log('Service Worker registered'))
+            .catch(err => console.log('Service Worker registration failed:', err));
+        });
+      }
+    </script>
+  </body>
+</html>
