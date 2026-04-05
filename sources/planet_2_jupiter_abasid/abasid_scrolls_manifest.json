@@ -1,0 +1,86 @@
+{
+  "name": "ABASID 1841 Scroll Collection",
+  "version": "2.0",
+  "scroll_count": 13,
+  "total_verses": 8500,
+  "scrolls": [
+    {
+      "id": "mathematics_of_god",
+      "title": "The Mathematics of God - Pi, E, and Hidden Constants",
+      "file": "sources/planet_2_jupiter_abasid/abasid_mathematics_of_god.json",
+      "verse_count": 240
+    },
+    {
+      "id": "dzimba_dze_mabwe",
+      "title": "Dzimba Dze Mabwe - The House of Stone (Great Zimbabwe)",
+      "file": "sources/planet_2_jupiter_abasid/dzimba_dze_mabwe.json",
+      "verse_count": 200
+    },
+    {
+      "id": "measure_of_light",
+      "title": "The Measure of Light - The Great Pyramid and ECHAD",
+      "file": "sources/planet_2_jupiter_abasid/the_measure_of_light.json",
+      "verse_count": 130
+    },
+    {
+      "id": "gospel_of_cyrus",
+      "title": "The Gospel of Cyrus (RA - The Sun Anointed)",
+      "file": "sources/gospel_of_cyrus.json",
+      "verse_count": 1785
+    },
+    {
+      "id": "god_is_time",
+      "title": "God Is Time (NGU)",
+      "file": "sources/god_is_time.json",
+      "verse_count": 2051
+    },
+    {
+      "id": "gospel_of_christos",
+      "title": "The Gospel of Christos 1480 (The Anointed Tower)",
+      "file": "sources/gospel_of_christos.json",
+      "verse_count": 1829
+    },
+    {
+      "id": "book_of_new_calendar",
+      "title": "The Book of the New Calendar",
+      "file": "sources/book_of_new_calendar.json",
+      "verse_count": 1
+    },
+    {
+      "id": "book_of_asar",
+      "title": "The Book of ASAR 1841",
+      "file": "sources/book_of_asar.json",
+      "verse_count": 14
+    },
+    {
+      "id": "gospel_of_yesu",
+      "title": "The Gospel of Yesu (The Lamb and The Lion)",
+      "file": "sources/gospel_of_yesu.json",
+      "verse_count": 1674
+    },
+    {
+      "id": "true_exodus",
+      "title": "The True Exodus 1841",
+      "file": "sources/true_exodus.json",
+      "verse_count": 17
+    },
+    {
+      "id": "god_is_number",
+      "title": "God Is Number",
+      "file": "sources/god_is_number.json",
+      "verse_count": 151
+    },
+    {
+      "id": "book_of_risen_seeds",
+      "title": "The Book of the Risen Seeds",
+      "file": "sources/book_of_risen_seeds.json",
+      "verse_count": 3
+    },
+    {
+      "id": "power_of_trinity",
+      "title": "The Power of the Trinity (Two Crowns)",
+      "file": "sources/power_of_trinity.json",
+      "verse_count": 57
+    }
+  ]
+}
