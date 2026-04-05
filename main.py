@@ -2100,6 +2100,155 @@ async def delete_data_page():
 
 
 # ================================================================
+# EXPORT / DATA ACCESS API (for external agents and integrations)
+# ================================================================
+
+@app.get("/api/export/scrolls")
+async def export_scroll_list(
+    planet: Optional[str] = Query(None, description="Filter by planet e.g. JUPITER, SATURN, EARTH, MOON, MERCURY, VENUS"),
+    limit: int = Query(200, ge=1, le=1200),
+):
+    """
+    Returns a list of all available scrolls with title, author, planet, and verse count.
+    No authentication required. Used by external agents to discover available content.
+    """
+    await ensure_scrolls_loaded()
+    results = []
+    planet_map = {
+        "SATURN": ["bible", "quran", "torah", "gita", "bhagavad", "kebra", "scripture"],
+        "JUPITER": ["abasid", "gospel", "iyesu", "caliphate", "book_of"],
+        "EARTH": ["masowe", "baba johane", "johane", "nhoroondo"],
+        "MERCURY": ["papyrus", "ani", "egyptian"],
+        "MOON": ["shona", "zimbabwe", "chigamba"],
+        "VENUS": ["science", "astronomy"],
+    }
+    for s in _SCROLLS:
+        title = s.get("title") or s.get("book_title") or s.get("name") or ""
+        author = s.get("author") or s.get("recorded_by") or ""
+        verses = s.get("verses") or s.get("text") or []
+        verse_count = len(verses) if isinstance(verses, list) else (1 if verses else 0)
+        scroll_planet = s.get("planet") or s.get("source") or ""
+
+        if planet:
+            keywords = planet_map.get(planet.upper(), [])
+            match = any(k in title.lower() or k in author.lower() or k in scroll_planet.lower() for k in keywords)
+            if not match:
+                continue
+
+        results.append({
+            "title": title,
+            "author": author,
+            "planet": scroll_planet,
+            "verse_count": verse_count,
+        })
+        if len(results) >= limit:
+            break
+
+    return {"total": len(results), "scrolls": results}
+
+
+@app.get("/api/export/scroll")
+async def export_scroll_content(
+    title: str = Query(..., description="Scroll title — partial match supported"),
+    language: str = Query("ENGLISH", description="Language for output"),
+):
+    """
+    Returns the full verse content of a specific scroll by title.
+    No authentication required.
+    """
+    scroll = find_scroll_by_title_like(title, language=language)
+    if not scroll:
+        raise HTTPException(status_code=404, detail=f"Scroll '{title}' not found.")
+
+    verses = scroll.get("verses") or []
+    if isinstance(verses, list):
+        formatted = [{"index": i + 1, "text": str(v).strip()} for i, v in enumerate(verses) if str(v).strip()]
+    else:
+        formatted = [{"index": 1, "text": str(verses)}]
+
+    return {
+        "title": scroll.get("book_title") or scroll.get("title") or title,
+        "author": scroll.get("author") or scroll.get("recorded_by") or "",
+        "planet": scroll.get("planet") or scroll.get("source") or "",
+        "verse_count": len(formatted),
+        "verses": formatted,
+    }
+
+
+@app.get("/api/export/search")
+async def export_search(
+    q: str = Query(..., description="Search query"),
+    limit: int = Query(10, ge=1, le=50),
+    planet: Optional[str] = Query(None, description="Optional planet filter"),
+):
+    """
+    Keyword search across all 1,172 scrolls.
+    Returns matching verses with their scroll title and author.
+    No authentication required.
+    """
+    await ensure_scrolls_loaded()
+    q_lower = q.lower()
+    results = []
+
+    for s in _SCROLLS:
+        title = s.get("title") or s.get("book_title") or s.get("name") or ""
+        author = s.get("author") or s.get("recorded_by") or ""
+        verses = s.get("verses") or s.get("text") or []
+
+        if not isinstance(verses, list):
+            verses = [str(verses)]
+
+        for i, v in enumerate(verses):
+            v_text = str(v).strip()
+            if q_lower in v_text.lower():
+                results.append({
+                    "scroll": title,
+                    "author": author,
+                    "verse_index": i + 1,
+                    "text": v_text[:500],
+                })
+                if len(results) >= limit:
+                    break
+        if len(results) >= limit:
+            break
+
+    return {"query": q, "total_matches": len(results), "results": results}
+
+
+@app.post("/api/export/ask")
+async def export_ask(
+    request: Request,
+    db: Session = Depends(get_db),
+):
+    """
+    Ask RA a question and receive the full Throne response including witnesses.
+    No authentication required. Rate limit: same as free tier.
+    Body: { "question": "...", "language": "ENGLISH" }
+    """
+    body = await request.json()
+    question = (body.get("question") or "").strip()
+    language = (body.get("language") or "ENGLISH").upper()
+    if not question:
+        raise HTTPException(status_code=400, detail="question is required")
+
+    resp = await handle_throne_message(
+        message=question,
+        language=language,
+        user_id="export_api",
+        db=db,
+        model="gpt-4.1-mini",
+    )
+    return {
+        "question": question,
+        "language": language,
+        "persona": resp.persona,
+        "mode": resp.mode,
+        "answer": resp.answer,
+        "witnesses": resp.witnesses,
+    }
+
+
+# ================================================================
 # CATCH-ALL ROUTE (PWA-SAFE - MUST BE LAST)
 # ================================================================
 
