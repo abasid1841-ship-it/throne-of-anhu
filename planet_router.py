@@ -303,53 +303,11 @@ def simplify_for_child(text: str, topic: str) -> str:
 
 def search_wikipedia(query: str) -> Optional[str]:
     """
-    Search Wikipedia for factual/scientific information.
-    Returns a concise, simplified summary for Planet 5 (Venus) queries.
+    External Wikipedia search — DISABLED by design.
+    The Throne speaks only from its own scrolls and sacred texts.
     """
-    try:
-        search_query = query.replace("what is", "").replace("how does", "").replace("explain", "").strip()
-        
-        headers = {
-            "User-Agent": "ThroneOfAnhu/1.0 (https://thecollegeofanhu.com; contact@thecollegeofanhu.com)"
-        }
-        
-        search_url = "https://en.wikipedia.org/w/api.php"
-        search_params = {
-            "action": "query",
-            "list": "search",
-            "srsearch": search_query,
-            "format": "json",
-            "srlimit": 1
-        }
-        
-        with httpx.Client(timeout=10.0, headers=headers) as client:
-            search_resp = client.get(search_url, params=search_params)
-            search_data = search_resp.json()
-        
-        if not search_data.get("query", {}).get("search"):
-            return None
-        
-        page_title = search_data["query"]["search"][0]["title"]
-        
-        summary_url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{page_title.replace(' ', '_')}"
-        
-        with httpx.Client(timeout=10.0, headers=headers) as client:
-            summary_resp = client.get(summary_url)
-            if summary_resp.status_code == 200:
-                summary_data = summary_resp.json()
-                extract = summary_data.get("extract", "")
-                if extract:
-                    extract = simplify_for_child(extract, page_title)
-                    if len(extract) > 600:
-                        extract = extract[:600] + "..."
-                    print(f"[VENUS] Wikipedia found: {page_title}")
-                    return f"[FACT: {page_title}] {extract}"
-        
-        return None
-        
-    except Exception as e:
-        print(f"[VENUS] Wikipedia search error: {e}")
-        return None
+    print(f"[VENUS] External search disabled — using local knowledge only")
+    return None
 
 
 def fetch_from_planets(query: str) -> Dict:
@@ -411,12 +369,6 @@ def get_planet_context(query: str) -> str:
     
     if fetch_result["math_result"]:
         context_parts.append(f"[CALCULATION] {fetch_result['math_result']}")
-    
-    if fetch_result["science_search"]:
-        if isinstance(fetch_result["science_search"], str):
-            context_parts.append(fetch_result["science_search"])
-        else:
-            context_parts.append("[SCIENCE QUERY] This is a factual/scientific question. Answer directly with known facts.")
     
     for scroll in fetch_result["scrolls"][:5]:
         planet = scroll.get("planet", "UNKNOWN")
