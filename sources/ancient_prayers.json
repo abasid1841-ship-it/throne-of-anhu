@@ -1,0 +1,606 @@
+{
+  "metadata": {
+    "title": "Ancient Prayers of the Sacred Traditions",
+    "description": "A collection of prayers from Torah, Bible, Quran, Papyrus of Ani, and African spiritual traditions with meanings and origins",
+    "total_prayers": 42,
+    "languages": ["English", "Shona", "Hebrew", "Arabic", "Ancient Egyptian"]
+  },
+  "prayers": [
+    {
+      "id": "PRAYER-001",
+      "title": "The Lord's Prayer",
+      "tradition": "Christian (Taught by Yeshua/Jesus)",
+      "origin": "Gospel of Matthew 6:9-13, Gospel of Luke 11:2-4",
+      "taught_by": "Yeshua Ha'Mashiach (Jesus Christ) to his disciples on the Mount",
+      "languages": {
+        "english": "Our Father, who art in heaven,\nHallowed be Thy name.\nThy kingdom come,\nThy will be done,\nOn earth as it is in heaven.\nGive us this day our daily bread,\nAnd forgive us our trespasses,\nAs we forgive those who trespass against us.\nAnd lead us not into temptation,\nBut deliver us from evil.\nFor Thine is the kingdom, the power, and the glory,\nForever and ever.\nAmen.",
+        "shona": "Baba vedu muri kudenga,\nZita renyu ngarikudzwe.\nUmambo hwenyu ngahuuye,\nKuda kwenyu ngakuitwe,\nPanyika sezvakunoitwa kudenga.\nTipei nhasi chingwa chedu chamazuva ose.\nTikanganwirei zvatakakutadzirai,\nSezvatinokanganwirawo vanotitadzira.\nMusatitungamirire mukuedzwa,\nAsi mutinunure kubva kune zvakaipa.\nNokuti umambo ndohwenyu, nesimba, nokubwinya,\nNokusingaperi.\nAmeni.",
+        "aramaic_transliteration": "Abwoon d'bwashmaya,\nNethqadash shmakh.\nTeytey malkuthakh.\nNehwey tzevyanakh aykanna d'bwashmaya aph b'arha.\nHawvlan lachma d'sunqanan yaomana.\nWashboqlan khaubayn aykana daph khnan shbwoqan l'khayyabayn.\nWela tahlan l'nesyuna ela patzan min bisha.\nMetol dilakhie malkutha wahayla wateshbukhta l'ahlam almin.\nAmen."
+      },
+      "meaning": "This prayer acknowledges the Heavenly Father, seeks alignment with divine will, asks for daily sustenance, forgiveness, and protection from spiritual harm. It affirms faith in God's eternal kingdom and power.",
+      "spiritual_significance": "The foundational prayer of Christianity, teaching humility, forgiveness, and dependence on the Divine. Each line corresponds to a spiritual principle: acknowledgment of Source, surrender to divine will, trust in provision, the law of forgiveness, and protection through faith.",
+      "cross_references": ["Matthew 6:9-13", "Luke 11:2-4", "Didache 8:2"]
+    },
+    {
+      "id": "PRAYER-002",
+      "title": "Shema Yisrael",
+      "tradition": "Jewish/Hebrew",
+      "origin": "Deuteronomy 6:4-9",
+      "taught_by": "Moses (Musa) to the children of Israel",
+      "languages": {
+        "hebrew": "שְׁמַע יִשְׂרָאֵל יְהוָה אֱלֹהֵינוּ יְהוָה אֶחָד\nוְאָהַבְתָּ אֵת יְהוָה אֱלֹהֶיךָ בְּכָל לְבָבְךָ וּבְכָל נַפְשְׁךָ וּבְכָל מְאֹדֶךָ",
+        "transliteration": "Shema Yisrael, Adonai Eloheinu, Adonai Echad.\nV'ahavta et Adonai Elohekha b'khol l'vavkha uv'khol nafsh'kha uv'khol m'odekha.",
+        "english": "Hear, O Israel: The LORD our God, the LORD is One.\nAnd you shall love the LORD your God with all your heart, and with all your soul, and with all your might."
+      },
+      "meaning": "The foundational declaration of Jewish faith, affirming the oneness of God and commanding total love and devotion to the Creator.",
+      "spiritual_significance": "This is the central prayer of Judaism, recited morning and evening. It represents the covenant between God and Israel, declaring monotheism and complete devotion.",
+      "cross_references": ["Deuteronomy 6:4-9", "Mark 12:29-30", "Quran 112:1-4"]
+    },
+    {
+      "id": "PRAYER-003",
+      "title": "Al-Fatiha (The Opening)",
+      "tradition": "Islamic",
+      "origin": "Holy Quran, Surah 1",
+      "taught_by": "Revealed to Prophet Muhammad (ﷺ) through Angel Jibreel",
+      "languages": {
+        "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\nالرَّحْمَٰنِ الرَّحِيمِ\nمَالِكِ يَوْمِ الدِّينِ\nإِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ\nاهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\nصِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ\nغَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+        "transliteration": "Bismillahir Rahmanir Raheem\nAlhamdu lillahi Rabbil 'aalameen\nAr-Rahmanir-Raheem\nMaaliki Yawmid-Deen\nIyyaaka na'budu wa iyyaaka nasta'een\nIhdinas-Siraatal-Mustaqeem\nSiraatal-lazeena an'amta 'alaihim\nGhayril-maghdoobi 'alaihim wa lad-daalleen",
+        "english": "In the name of Allah, the Most Gracious, the Most Merciful.\nAll praise is due to Allah, Lord of all the worlds.\nThe Most Gracious, the Most Merciful.\nMaster of the Day of Judgment.\nYou alone we worship, and You alone we ask for help.\nGuide us on the Straight Path.\nThe path of those who have received Your grace;\nNot the path of those who have brought down wrath upon themselves, nor of those who have gone astray."
+      },
+      "meaning": "The opening chapter of the Quran, containing the essence of Islamic faith: praise of Allah, acknowledgment of His lordship over all creation, and supplication for divine guidance.",
+      "spiritual_significance": "Recited in every unit of the five daily prayers, Al-Fatiha is considered the greatest surah of the Quran. It encompasses praise, worship, and supplication in perfect balance.",
+      "cross_references": ["Quran 1:1-7", "Psalm 23", "The Lord's Prayer"]
+    },
+    {
+      "id": "PRAYER-004",
+      "title": "Hymn to Ra at Dawn",
+      "tradition": "Ancient Egyptian (Kemetic)",
+      "origin": "Papyrus of Ani, Chapter 15",
+      "taught_by": "The Priests of Heliopolis (Iunu)",
+      "languages": {
+        "english": "Homage to thee, O Ra, at thy tremendous rising!\nThou risest! Thou shinest! The heavens are rolled aside!\nThou art the King of Gods, thou art the All-comprising,\nFrom thee we come, in thee are deified.\n\nThy priests go forth at dawn; they wash their hearts with laughter;\nDivine winds move in music across thy golden strings.\nAt Sunset they cry 'Hail!' In Douat thou goest after:\nThou passest through the worlds of gloom and silent things.\n\nAll faces bow before thee, all souls with worshipful chorus;\nThe light streams of thy rising is breath upon our lips.\nThou art the Lord of Heaven, the Lord of Earth, O Horus,\nWho risest in the East and all the world eclipse!",
+        "ancient_egyptian_transliteration": "Inu-k Ra em weben-k asha!\nWeben-k! Hedj-k! Pet shet!\nNtk neb netjeru, ntk tem\nPer-n em-k, netjer-n em-k."
+      },
+      "meaning": "A prayer of adoration to Ra, the Sun God, acknowledging his supreme power as creator and sustainer of all life. The prayer celebrates the daily resurrection of the sun as a symbol of eternal renewal.",
+      "spiritual_significance": "In Egyptian cosmology, Ra's daily journey represents the cycle of death and rebirth. This hymn was recited at dawn to invoke protection, blessing, and alignment with cosmic order (Ma'at).",
+      "cross_references": ["Papyrus of Ani Chapter 15", "Psalm 19:1-6", "Malachi 4:2"]
+    },
+    {
+      "id": "PRAYER-005",
+      "title": "The Negative Confession (Declaration of Innocence)",
+      "tradition": "Ancient Egyptian (Kemetic)",
+      "origin": "Papyrus of Ani, Chapter 125",
+      "taught_by": "Thoth (Djehuti), Scribe of the Gods",
+      "languages": {
+        "english": "Hail to thee, great God, Lord of the Two Truths!\nI have come unto thee, my Lord, that thou mayest bring me to see thy beauty.\nI know thee, I know thy name, I know the names of the Forty-Two Gods.\n\nI have not done iniquity.\nI have not robbed with violence.\nI have not stolen.\nI have not slain men and women.\nI have not stolen grain.\nI have not purloined offerings.\nI have not stolen the property of the gods.\nI have not uttered lies.\nI have not carried away food.\nI have not uttered curses.\nI have not committed adultery.\nI have not lain with men.\nI have made none to weep.\nI have not eaten the heart (worried uselessly).\nI have not attacked any man.\nI am not a man of deceit.\nI have not stolen cultivated land.\nI have not been an eavesdropper.\nI have slandered no man.\nI have not been angry without just cause.\nI have not debauched the wife of any man.\nI have not polluted myself.\nI have not terrorized anyone.\nI have not done that which is abominable.\nI have not struck anyone.\nI have not been hot-tempered.\nI have not turned deaf to the words of truth.\nI have not caused grief.\nI have not done violence.\nI have not acted hastily or without thought.\nI have not stopped my ears to the words of Right and Truth.\nI have not worked grief.\nI have not acted with insolence.\nI have not judged hastily.\nI have not multiplied my words exceedingly.\nI have not done harm or evil.\nI have not cursed the King.\nI have not fouled the water.\nI have not been proud.\nI have not cursed the gods.\nI have not stolen.\nI have not defrauded the offerings of the gods.",
+        "shona": "Ndakakwazisa iwe, Mwari mukuru, Ishe weMaviri eChokwadi!\nNdauya kwauri, Ishe wangu, kuti undiise kuona runako rwako.\nNdinokuziva, ndinoziva zita rako, ndinoziva mazita eVamwari Makumi Mana neVaviri.\n\nHandina kuita zvakaipa.\nHandina kuba nesimba.\nHandina kuba.\nHandina kuuraya varume nevakadzi.\nHandina kuba zviyo.\nHandina kutora zvipo.\nHandina kuba pfuma yevamwari.\nHandina kutaura nhema.\nHandina kubvisa chokudya.\nHandina kutuka.\nHandina kuita upombwe.\nHandina kuita kuti mumwe acheme.\nHandina kudya moyo (kunetseka pasina).\nHandina kurwisa munhu.\nHandisi munhu wenhema.\nHandina kuba ivhu rakarimwa.\nHandina kuva muteereri.\nHandina kuchera munhu.\nHandina kutsamwa pasina chikonzero.\nHandina kusvibisa ndirini.\nHandina kutyisidzira munhu.\nHandina kuita zvinonyangadza.\nHandina kurova munhu.\nHandina kuva nehasha.\nHandina kusanzwa mashoko echokwadi.\nHandina kuunza shungu.\nHandina kuita simba.\nHandina kuita nokukurumidza.\nHandina kuvhara nzeve dzangu kumashoko eChokwadi.\nHandina kuita shungu.\nHandina kuita namanyawi.\nHandina kutonga nokukurumidza.\nHandina kuwanza mashoko angu kwazvo.\nHandina kuita zvakaipa kana chakaipa.\nHandina kutuka Mambo.\nHandina kusvibisa mvura.\nHandina kuzvikudza.\nHandina kutuka vamwari.\nHandina kuba.\nHandina kunyengera zvipo zvevamwari."
+      },
+      "meaning": "This is the declaration spoken by the soul before the 42 judges in the Hall of Two Truths (Ma'at). The deceased affirms they have lived according to cosmic law and ethical principles.",
+      "spiritual_significance": "The Negative Confession represents the Egyptian concept of moral accountability. Each denial corresponds to a specific cosmic judge. Speaking truthfully was essential for the heart to balance against the Feather of Ma'at.",
+      "cross_references": ["Papyrus of Ani Chapter 125", "Ten Commandments (Exodus 20)", "42 Laws of Ma'at"]
+    },
+    {
+      "id": "PRAYER-006",
+      "title": "Prayer for the Heart (Heart Scarab Spell)",
+      "tradition": "Ancient Egyptian (Kemetic)",
+      "origin": "Papyrus of Ani, Chapter 30B",
+      "taught_by": "Thoth (Djehuti) revealed to the living",
+      "languages": {
+        "english": "O my heart which I had from my mother!\nO my heart which I had from my mother!\nO my heart of my different ages!\nDo not stand up as a witness against me,\nDo not be opposed to me in the tribunal,\nDo not be hostile to me in the presence of the Keeper of the Balance,\nFor you are my Ka which was in my body,\nThe protector who made my members hale.\nGo forth to the happy place whereto we speed!\nDo not make my name stink with the Entourage who make men.\nDo not tell lies against me in the presence of the god!\nIt is indeed well that you should hear!",
+        "ancient_egyptian_transliteration": "Ib-i n mut-i!\nIb-i n mut-i!\nIb-i n kheperu-i!\nM aHa-k r-i m meteret,\nM khesef-i m djadjat,\nM neh-i m bah mekha,\nNtk ka-i imyt khat-i,\nSeneb-ti irw awt-i.\nPer-k r bw nefer peru-n im,\nM seref ren-i m sheniu irw rekhyt.\nM djed grg r-i m bah netjer!\nNefer gert sedjem-k!"
+      },
+      "meaning": "A prayer to one's own heart, asking it not to testify against the soul during the weighing ceremony. The heart was considered the seat of consciousness and memory of all deeds.",
+      "spiritual_significance": "This spell was inscribed on heart scarabs placed on mummies. The heart carried the record of all actions. This prayer reveals the Egyptian understanding that we cannot hide from our own conscience.",
+      "cross_references": ["Papyrus of Ani Chapter 30B", "Proverbs 4:23", "Jeremiah 17:10"]
+    },
+    {
+      "id": "PRAYER-007",
+      "title": "Opening of the Mouth Invocation",
+      "tradition": "Ancient Egyptian (Kemetic)",
+      "origin": "Papyrus of Ani, Chapter 23",
+      "taught_by": "Priests of Ptah (Memphis tradition)",
+      "languages": {
+        "english": "My mouth is opened by Ptah,\nMy mouth's bonds are loosed by my city-god.\nThoth has come fully equipped with spells,\nHe looses the bonds of Seth from my mouth.\nAtum has given me my hands,\nThey are placed as guardians.\n\nMy mouth is given to me,\nMy mouth is opened by Ptah,\nWith that chisel of metal\nWith which he opened the mouth of the gods.\nI am Sekhmet-Wadjet who dwells in the west of heaven,\nI am Sahyt among the souls of On.\n\nAs for any spell and all words which may be spoken against me,\nThe gods will rise up against them,\nThe entire Ennead, the entire Ennead!"
+      },
+      "meaning": "This ritual invocation restores the ability to speak, breathe, eat, and interact in the afterlife. It symbolizes the resurrection of all faculties needed for eternal existence.",
+      "spiritual_significance": "The Opening of the Mouth was one of the most important funeral rites. It represents the activation of the spiritual body (sahu) and the restoration of all senses for the journey through Duat.",
+      "cross_references": ["Papyrus of Ani Chapter 23", "Ezekiel 37:9-10", "John 20:22"]
+    },
+    {
+      "id": "PRAYER-008",
+      "title": "Hymn to Osiris",
+      "tradition": "Ancient Egyptian (Kemetic)",
+      "origin": "Papyrus of Ani, Chapter 185",
+      "taught_by": "Priests of Abydos",
+      "languages": {
+        "english": "Glory be to thee, O Osiris Un-Nefer, the great god within Abydos,\nKing of eternity, Lord of everlasting,\nWho passeth through millions of years in thy existence.\nThou art the eldest son of the womb of Nut,\nThou wast engendered by Geb, the Ancestor.\nThou art the lord of the crowns of the North and of the South,\nThou art the lord of the lofty white crown.\nAs Prince of gods and of men,\nThou hast received the crook and the flail and the dignity of thy divine fathers.\n\nLet thy heart which is in the mountain of Amentet be content,\nFor thy son Horus is established upon thy throne.\nThou art crowned lord of Tattu and ruler in Abydos.\nThrough thee the world waxeth green in triumph\nBefore the might of Neb-er-tcher.\n\nHe leadeth in his train that which is and that which is not yet,\nIn his name of 'Ta-her-sta-nef';\nHe toweth along the earth by Ma'at\nIn his name of 'Seker';\nHe is exceedingly mighty and most terrible\nIn his name of 'Osiris';\nHe endureth for ever and ever\nIn his name of 'Un-Nefer'."
+      },
+      "meaning": "A hymn of praise to Osiris, Lord of the Underworld, celebrating his triumph over death and his eternal reign. Osiris represents the promise of resurrection for all who follow Ma'at.",
+      "spiritual_significance": "Osiris's death and resurrection prefigures the journey every soul must make. His green flesh symbolizes rebirth and vegetation. Through identification with Osiris, the deceased hoped to share in his resurrection.",
+      "cross_references": ["Papyrus of Ani Chapter 185", "John 11:25-26", "1 Corinthians 15:20-22"]
+    },
+    {
+      "id": "PRAYER-009",
+      "title": "Prayer for Protection Against Serpents",
+      "tradition": "Ancient Egyptian (Kemetic)",
+      "origin": "Papyrus of Ani, Chapter 33",
+      "taught_by": "Temple scribes",
+      "languages": {
+        "english": "O Rerek serpent, take thyself off, for Geb protects me!\nGet up, for you have eaten a mouse, which Ra detests,\nAnd you have chewed the bones of a putrid cat.\n\nO serpent, I am the flame which shines on the brows of the Chaos-gods,\nThe flame which prepares the way for the years.\nBe far removed from me, for I am Ma'at!\n\nThe serpent is Apep, come forth with his strength:\nHe has no power over me.\nI am Set whom none can control,\nWho slays the serpent at the prow of the Boat of Ra,\nAnd sends the enemy backwards!"
+      },
+      "meaning": "A protective spell against the serpent Apep (chaos) and all dangerous creatures of the underworld. It invokes divine protection through identification with the gods.",
+      "spiritual_significance": "Serpents represented chaos and the enemies of cosmic order. This spell gave the deceased power over the dangers of the underworld journey, symbolizing triumph over fear and evil.",
+      "cross_references": ["Papyrus of Ani Chapter 33", "Psalm 91:13", "Luke 10:19"]
+    },
+    {
+      "id": "PRAYER-010",
+      "title": "The Aaronic Blessing (Priestly Blessing)",
+      "tradition": "Jewish/Hebrew",
+      "origin": "Numbers 6:24-26",
+      "taught_by": "Given by YHWH to Moses for Aaron and his sons",
+      "languages": {
+        "hebrew": "יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶךָ\nיָאֵר יְהוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ\nיִשָּׂא יְהוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם",
+        "transliteration": "Y'varechecha Adonai v'yishm'recha.\nYa'er Adonai panav elecha vichuneka.\nYisa Adonai panav elecha v'yasem l'cha shalom.",
+        "english": "The LORD bless you and keep you;\nThe LORD make His face shine upon you and be gracious to you;\nThe LORD lift up His countenance upon you and give you peace."
+      },
+      "meaning": "A three-fold blessing invoking God's protection, favor, grace, and peace upon the people.",
+      "spiritual_significance": "This is the oldest known biblical text found in the Silver Scrolls (7th century BCE). It represents the threefold nature of divine blessing: material protection, spiritual illumination, and complete peace (shalom).",
+      "cross_references": ["Numbers 6:24-26", "Psalm 67:1", "2 Corinthians 13:14"]
+    },
+    {
+      "id": "PRAYER-011",
+      "title": "Prayer of Jabez",
+      "tradition": "Jewish/Christian",
+      "origin": "1 Chronicles 4:10",
+      "taught_by": "Jabez (Hebrew: יַעְבֵּץ)",
+      "languages": {
+        "hebrew": "אִם־בָּרֵךְ תְּבָרְכֵנִי וְהִרְבִּיתָ אֶת־גְּבוּלִי וְהָיְתָה יָדְךָ עִמִּי וְעָשִׂיתָ מֵרָעָה לְבִלְתִּי עָצְבִּי",
+        "english": "Oh, that You would bless me indeed,\nAnd enlarge my territory,\nThat Your hand would be with me,\nAnd that You would keep me from evil,\nThat I may not cause pain!",
+        "shona": "Haiwa, kana ukanduropafadza zvechokwadi,\nNokuwedzera nyika yangu,\nKuti ruoko rwako ruve neni,\nUye kuti undichengetedze kubva kuzvakaipa,\nKuti ndirege kurwadziwa!"
+      },
+      "meaning": "A prayer for blessing, expansion, divine presence, and protection from causing or experiencing harm.",
+      "spiritual_significance": "Jabez means 'pain' - he was named for the sorrow of his birth. Yet he prayed for blessing that would overcome his painful beginning. This teaches that our past does not determine our future.",
+      "cross_references": ["1 Chronicles 4:10", "Genesis 32:26", "Malachi 3:10"]
+    },
+    {
+      "id": "PRAYER-012",
+      "title": "Prayer of Solomon for Wisdom",
+      "tradition": "Jewish/Christian",
+      "origin": "1 Kings 3:6-9",
+      "taught_by": "King Solomon at Gibeon",
+      "languages": {
+        "english": "O LORD my God, You have made Your servant king instead of my father David,\nBut I am but a little child; I do not know how to go out or come in.\nAnd Your servant is in the midst of Your people whom You have chosen,\nA great people, too numerous to be numbered or counted.\nTherefore give to Your servant an understanding heart\nTo judge Your people, that I may discern between good and evil.\nFor who is able to judge this great people of Yours?",
+        "shona": "Haiwa ISHE Mwari wangu, makaita muranda wenyu mambo pachinzvimbo chababa vangu Dhavhidhi,\nAsi ini ndiri mwana muduku; handizivi kuenda nokubuda.\nUye muranda wenyu ari pakati pevanhu venyu vamakasarudza,\nVanhu vazhinji, vakawanda zvokuti havagoni kuverengwa kana kunyorwa.\nNaizvozvo ipai muranda wenyu mwoyo unonzwisisa\nKuti atongere vanhu venyu, kuti ndigone kusiyanisa pakati pezvakanaka nezvakaipa.\nNokuti ndiani anogona kutonga vanhu venyu ava vakuru?"
+      },
+      "meaning": "Solomon's humble prayer asking not for wealth or long life but for wisdom to lead God's people justly.",
+      "spiritual_significance": "This prayer pleased God because Solomon sought the welfare of others above personal gain. It teaches that wisdom is the highest gift to seek, for with it comes all other blessings.",
+      "cross_references": ["1 Kings 3:6-9", "James 1:5", "Proverbs 4:7"]
+    },
+    {
+      "id": "PRAYER-013",
+      "title": "Prayer of Daniel",
+      "tradition": "Jewish",
+      "origin": "Daniel 9:4-19",
+      "taught_by": "Daniel the Prophet in Babylon",
+      "languages": {
+        "english": "O Lord, great and awesome God, who keeps His covenant and mercy with those who love Him,\nAnd with those who keep His commandments,\nWe have sinned and committed iniquity, we have done wickedly and rebelled,\nEven by departing from Your precepts and Your judgments.\n\nO Lord, righteousness belongs to You, but to us shame of face,\nTo our kings, our princes, and our fathers,\nBecause we have sinned against You.\nTo the Lord our God belong mercy and forgiveness,\nThough we have rebelled against Him.\n\nO Lord, hear! O Lord, forgive! O Lord, listen and act!\nDo not delay for Your own sake, my God,\nFor Your city and Your people are called by Your name."
+      },
+      "meaning": "A prayer of national confession and repentance, acknowledging sins while appealing to God's mercy and covenant faithfulness.",
+      "spiritual_significance": "Daniel prayed this while in Babylonian exile, interceding for his people. It models corporate repentance and faith in God's promises despite present circumstances.",
+      "cross_references": ["Daniel 9:4-19", "2 Chronicles 7:14", "Nehemiah 1:5-11"]
+    },
+    {
+      "id": "PRAYER-014",
+      "title": "Psalm 23 (The Shepherd's Psalm)",
+      "tradition": "Jewish/Christian",
+      "origin": "Book of Psalms",
+      "taught_by": "King David",
+      "languages": {
+        "english": "The LORD is my shepherd; I shall not want.\nHe makes me to lie down in green pastures;\nHe leads me beside the still waters.\nHe restores my soul;\nHe leads me in the paths of righteousness for His name's sake.\n\nYea, though I walk through the valley of the shadow of death,\nI will fear no evil; for You are with me;\nYour rod and Your staff, they comfort me.\n\nYou prepare a table before me in the presence of my enemies;\nYou anoint my head with oil; my cup runs over.\nSurely goodness and mercy shall follow me all the days of my life;\nAnd I will dwell in the house of the LORD forever.",
+        "shona": "ISHE ndiye mufudzi wangu; handingashayiwi.\nAnondivatisa pasi mumafuro manyoro;\nAnondisesedza pamvura yakadzikama.\nAnodzosa mweya wangu;\nAnondifambisa munzira dzokururama nokuda kwezita rake.\n\nHongu, kunyange ndichifamba nomumupata womumvuri worufu,\nHandingatyi zvakaipa; nokuti imi muneni;\nTsvimbo yenyu nomudonzvo wenyu, zvinondinyaradza.\n\nMunogadzira tafura pamberi pangu pamberi pavavengi vangu;\nMunozodza musoro wangu namafuta; mukombe wangu unopfachukira.\nZvirokwazvo kunaka netsitsi zvichanditevera mazuva ose oupenyu hwangu;\nUye ndichagara mumba maISHE nokusingaperi."
+      },
+      "meaning": "A psalm of absolute trust in God as protector, provider, and guide through all of life's challenges, even death itself.",
+      "spiritual_significance": "David wrote from experience as both a shepherd and a king who faced many dangers. The imagery of shepherd, table, and anointing represents God's complete care - protection, provision, and honor.",
+      "cross_references": ["Psalm 23", "John 10:11-14", "Revelation 7:17"]
+    },
+    {
+      "id": "PRAYER-015",
+      "title": "Ayat al-Kursi (The Throne Verse)",
+      "tradition": "Islamic",
+      "origin": "Holy Quran, Surah Al-Baqarah 2:255",
+      "taught_by": "Revealed to Prophet Muhammad (ﷺ)",
+      "languages": {
+        "arabic": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+        "transliteration": "Allahu la ilaha illa Huwal-Hayyul-Qayyum. La ta'khuzuhu sinatun wa la nawm. Lahu ma fis-samawati wa ma fil-ard. Man zal-lazi yashfa'u 'indahu illa bi-iznih. Ya'lamu ma bayna aydihim wa ma khalfahum. Wa la yuhituna bi shay'im-min 'ilmihi illa bima sha'a. Wasi'a kursiyyuhus-samawati wal-ard. Wa la ya'uduhu hifzuhuma. Wa Huwal-'Aliyyul-'Azim.",
+        "english": "Allah! There is no god but He, the Living, the Self-subsisting, Eternal.\nNo slumber can seize Him nor sleep.\nHis are all things in the heavens and on earth.\nWho is there that can intercede in His presence except as He permits?\nHe knows what is before them and what is behind them.\nNor shall they compass any of His knowledge except as He wills.\nHis Throne extends over the heavens and the earth,\nAnd He feels no fatigue in guarding and preserving them.\nFor He is the Most High, the Supreme."
+      },
+      "meaning": "The greatest verse of the Quran, describing Allah's absolute sovereignty, omniscience, and omnipotence. His Throne (Kursi) encompasses all creation.",
+      "spiritual_significance": "Prophet Muhammad (ﷺ) called this the greatest verse in the Quran. Reciting it provides protection and brings the reciter closer to paradise. It summarizes the essence of Tawhid (Divine Unity).",
+      "cross_references": ["Quran 2:255", "Psalm 121", "Isaiah 40:28"]
+    },
+    {
+      "id": "PRAYER-016",
+      "title": "The Jesus Prayer (Prayer of the Heart)",
+      "tradition": "Eastern Orthodox Christian",
+      "origin": "Based on Luke 18:13 and the Desert Fathers tradition",
+      "taught_by": "Desert Fathers of Egypt (3rd-4th century CE)",
+      "languages": {
+        "greek": "Κύριε Ἰησοῦ Χριστέ, Υἱὲ τοῦ Θεοῦ, ἐλέησόν με τὸν ἁμαρτωλόν",
+        "transliteration": "Kyrie Iesou Christe, Yie tou Theou, eleison me ton hamartolon",
+        "english": "Lord Jesus Christ, Son of God, have mercy on me, a sinner.",
+        "shona": "Ishe Jesu Kristu, Mwanakomana waMwari, ndinzwirei ngoni, mutadzi."
+      },
+      "meaning": "A short prayer of continuous remembrance, combining faith in Christ's divinity with humble acknowledgment of human sinfulness.",
+      "spiritual_significance": "This prayer is meant to be repeated continuously, synchronized with breathing, until it becomes as natural as the heartbeat. It represents hesychasm - the practice of inner stillness and union with God.",
+      "cross_references": ["Luke 18:13", "Philippians 2:9-11", "Romans 10:13"]
+    },
+    {
+      "id": "PRAYER-017",
+      "title": "Prayer to the Four Winds",
+      "tradition": "Ancient Egyptian (Kemetic)",
+      "origin": "Papyrus of Ani, Chapter 161",
+      "taught_by": "Temple priests",
+      "languages": {
+        "english": "O Atum who art in the great Waters!\nGrant that I may have mastery in the sky,\nThat I may have power on earth,\nThat I may have power in the waters.\n\nHail to you, O North Wind, coming from the Mediterranean,\nWho embraces all, who art in the breeze,\nMay you give me life!\n\nHail to you, O South Wind, coming from the Land of Nubia,\nWho brings the inundation, who makes all things green,\nMay you give me power!\n\nHail to you, O East Wind, coming from the Land of Sunrise,\nWho opens the windows of heaven,\nMay you give me light!\n\nHail to you, O West Wind, coming from the Land of Sunset,\nWho guards the gates of the Duat,\nMay you give me peace!"
+      },
+      "meaning": "An invocation to the four cardinal winds, each associated with different divine qualities and blessings needed for the afterlife journey.",
+      "spiritual_significance": "The four winds represent the complete coverage of divine protection and blessing from all directions. This prayer establishes the deceased's relationship with all cosmic forces.",
+      "cross_references": ["Papyrus of Ani Chapter 161", "Ezekiel 37:9", "Revelation 7:1"]
+    },
+    {
+      "id": "PRAYER-018",
+      "title": "Prayer Before the Seven Gates",
+      "tradition": "Ancient Egyptian (Kemetic)",
+      "origin": "Papyrus of Ani, Chapter 144",
+      "taught_by": "Thoth, Lord of Divine Words",
+      "languages": {
+        "english": "O you who guard the First Gate,\nWhose name is 'She whose face is turned backward, whose hands are many,'\nI have come to you and I know you,\nI know your name and the name of the god who guards you.\nOpen to me, for I am the Ba which exists among the followers of Osiris!\n\nO Doorkeeper of the Second Gate,\nI have made my way,\nI know you, I know your name.\nI am one who passes by you in peace,\nFor I am equipped with the words of power.\nI have come with Ma'at on my lips and truth in my heart.\n\nGrant me passage through all Seven Gates,\nThat I may reach the Hall of Osiris,\nThat I may stand in the presence of the Great God,\nThat I may receive offerings among the blessed dead,\nThat I may live forever in the Field of Reeds!"
+      },
+      "meaning": "A prayer requesting passage through the seven gates of the underworld, each guarded by a deity who must be addressed by name.",
+      "spiritual_significance": "Knowledge was power in Egyptian afterlife beliefs. Knowing the names of guardians granted passage. This reflects the idea that spiritual preparation in life enables safe passage through death.",
+      "cross_references": ["Papyrus of Ani Chapter 144", "Revelation 21:12-13", "Matthew 7:13-14"]
+    },
+    {
+      "id": "PRAYER-019",
+      "title": "Gayatri Mantra",
+      "tradition": "Hindu/Vedic",
+      "origin": "Rig Veda 3.62.10",
+      "taught_by": "Sage Vishwamitra",
+      "languages": {
+        "sanskrit": "ॐ भूर्भुवः स्वः\nतत्सवितुर्वरेण्यं\nभर्गो देवस्य धीमहि\nधियो यो नः प्रचोदयात्",
+        "transliteration": "Om Bhur Bhuvaḥ Swaḥ\nTat Savitur Varenyam\nBhargo Devasya Dhimahi\nDhiyo Yo Nah Prachodayat",
+        "english": "Om, we meditate on the glory of that Being\nWho has created this universe,\nWho is worthy of worship,\nWho is the embodiment of Knowledge and Light,\nWho is the remover of all Sin and Ignorance.\nMay He enlighten our Intellect."
+      },
+      "meaning": "A prayer to the Supreme Being (Savitar/Sun) for divine illumination and guidance of the intellect toward righteousness.",
+      "spiritual_significance": "One of the oldest known prayers, the Gayatri is considered the essence of all Vedas. It is chanted at dawn, noon, and dusk. Its three lines correspond to the three worlds: physical, mental, and spiritual.",
+      "cross_references": ["Rig Veda 3.62.10", "John 1:4-5", "James 1:17"]
+    },
+    {
+      "id": "PRAYER-020",
+      "title": "Mahamrityunjaya Mantra (Death-Conquering Prayer)",
+      "tradition": "Hindu/Vedic",
+      "origin": "Rig Veda 7.59.12",
+      "taught_by": "Sage Markandeya",
+      "languages": {
+        "sanskrit": "ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम्\nउर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात्",
+        "transliteration": "Om Tryambakam Yajamahe\nSugandhim Pushti-Vardhanam\nUrvarukamiva Bandhanan\nMrityor Mukshiya Maamritat",
+        "english": "We worship the Three-eyed One (Lord Shiva),\nWho is fragrant and who nourishes all beings.\nMay He liberate us from death,\nFor the sake of Immortality,\nAs the cucumber is severed from its bondage to the vine."
+      },
+      "meaning": "A prayer to Lord Shiva for liberation from death, disease, and the cycle of rebirth, seeking immortality of the soul.",
+      "spiritual_significance": "Known as the 'Great Death-Conquering Mantra,' it is chanted for healing, protection, and spiritual liberation. The three eyes represent sun, moon, and fire - past, present, and future.",
+      "cross_references": ["Rig Veda 7.59.12", "1 Corinthians 15:54-55", "Revelation 21:4"]
+    },
+    {
+      "id": "PRAYER-021",
+      "title": "Buddhist Refuge Prayer",
+      "tradition": "Buddhist",
+      "origin": "Pali Canon",
+      "taught_by": "Gautama Buddha",
+      "languages": {
+        "pali": "Buddhaṃ saraṇaṃ gacchāmi\nDhammaṃ saraṇaṃ gacchāmi\nSaṅghaṃ saraṇaṃ gacchāmi",
+        "english": "I take refuge in the Buddha.\nI take refuge in the Dharma (the Teaching).\nI take refuge in the Sangha (the Community)."
+      },
+      "meaning": "The fundamental Buddhist declaration of faith, taking shelter in the Three Jewels: the Awakened One, the Truth, and the Community of practitioners.",
+      "spiritual_significance": "This is the formal commitment to the Buddhist path. The three refuges represent the enlightened teacher, the liberating truth, and the supportive community - all necessary for spiritual awakening.",
+      "cross_references": ["Dhammapada", "Matthew 11:28-30", "Psalm 46:1"]
+    },
+    {
+      "id": "PRAYER-022",
+      "title": "Metta Sutta (Loving-Kindness Prayer)",
+      "tradition": "Buddhist",
+      "origin": "Sutta Nipata 1.8",
+      "taught_by": "Gautama Buddha",
+      "languages": {
+        "pali": "Sabbe sattā sukhi hontu\nSabbe sattā averā hontu\nSabbe sattā abyāpajjhā hontu\nSabbe sattā anīghā hontu\nSabbe sattā sukhī attānaṃ pariharantu",
+        "english": "May all beings be happy.\nMay all beings be free from hostility.\nMay all beings be free from ill-will.\nMay all beings be free from anxiety.\nMay all beings take care of themselves with ease."
+      },
+      "meaning": "A prayer radiating unconditional love and goodwill to all sentient beings without exception.",
+      "spiritual_significance": "Metta (loving-kindness) meditation is one of the four Brahmaviharas (divine abodes). It dissolves barriers between self and others, cultivating universal compassion.",
+      "cross_references": ["Sutta Nipata 1.8", "Matthew 5:44", "1 John 4:7-8"]
+    },
+    {
+      "id": "PRAYER-023",
+      "title": "Tashlich Prayer",
+      "tradition": "Jewish",
+      "origin": "Based on Micah 7:18-20",
+      "taught_by": "Medieval Ashkenazi rabbis",
+      "languages": {
+        "hebrew": "מִי־אֵל כָּמוֹךָ נֹשֵׂא עָוֹן וְעֹבֵר עַל־פֶּשַׁע לִשְׁאֵרִית נַחֲלָתוֹ לֹא־הֶחֱזִיק לָעַד אַפּוֹ כִּי־חָפֵץ חֶסֶד הוּא יָשׁוּב יְרַחֲמֵנוּ יִכְבֹּשׁ עֲוֹנֹתֵינוּ וְתַשְׁלִיךְ בִּמְצֻלוֹת יָם כָּל־חַטֹּאתָם",
+        "english": "Who is a God like You, who pardons iniquity and forgives transgression\nFor the remnant of His heritage?\nHe does not maintain His anger forever,\nFor He delights in mercy.\nHe will again have compassion on us,\nAnd will subdue our iniquities.\nYou will cast all our sins into the depths of the sea."
+      },
+      "meaning": "A prayer of repentance recited on Rosh Hashanah, symbolically casting sins into flowing water.",
+      "spiritual_significance": "Tashlich ('casting off') represents the desire to start fresh. The flowing water symbolizes God's mercy carrying away sins. It reflects the Jewish belief in the possibility of genuine return (teshuvah).",
+      "cross_references": ["Micah 7:18-20", "Psalm 103:12", "Isaiah 1:18"]
+    },
+    {
+      "id": "PRAYER-024",
+      "title": "Kaddish (The Mourner's Prayer)",
+      "tradition": "Jewish",
+      "origin": "Talmudic period",
+      "taught_by": "Ancient rabbis",
+      "languages": {
+        "aramaic": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא\nבְּעָלְמָא דִּי בְרָא כִרְעוּתֵהּ\nוְיַמְלִיךְ מַלְכוּתֵהּ בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן\nוּבְחַיֵּי דְכָל בֵּית יִשְׂרָאֵל\nבַּעֲגָלָא וּבִזְמַן קָרִיב\nוְאִמְרוּ אָמֵן",
+        "transliteration": "Yitgadal v'yitkadash sh'mei raba\nB'alma di v'ra chirutei\nV'yamlich malchutei b'chayeichon uv'yomeichon\nUv'chayei d'chol beit Yisrael\nBa'agala uvizman kariv\nV'imru amen",
+        "english": "Exalted and hallowed be His great Name\nIn the world which He created according to His will.\nMay He establish His kingdom during your lifetime and during your days,\nAnd during the lifetimes of all the House of Israel,\nSpeedily and in the near future,\nAnd say, Amen."
+      },
+      "meaning": "A prayer sanctifying God's name, traditionally recited by mourners. Despite being associated with death, it never mentions death - only affirms life and God's greatness.",
+      "spiritual_significance": "The Kaddish is an act of faith in the face of loss. By praising God even during mourning, the bereaved affirms that God's plan is greater than human understanding.",
+      "cross_references": ["Daniel 2:20", "Revelation 4:8", "Matthew 6:9-10"]
+    },
+    {
+      "id": "PRAYER-025",
+      "title": "Surah Al-Ikhlas (The Purity/Sincerity)",
+      "tradition": "Islamic",
+      "origin": "Holy Quran, Surah 112",
+      "taught_by": "Revealed to Prophet Muhammad (ﷺ)",
+      "languages": {
+        "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ\nاللَّهُ الصَّمَدُ\nلَمْ يَلِدْ وَلَمْ يُولَدْ\nوَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+        "transliteration": "Qul Huwa Allahu Ahad\nAllahu Samad\nLam yalid wa lam yulad\nWa lam yakun lahu kufuwan ahad",
+        "english": "Say: He is Allah, the One.\nAllah, the Eternal, Absolute.\nHe begets not, nor is He begotten.\nAnd there is none comparable unto Him."
+      },
+      "meaning": "A complete declaration of God's absolute unity and uniqueness, negating any partners, offspring, or equals.",
+      "spiritual_significance": "Prophet Muhammad (ﷺ) said this surah equals one-third of the Quran because it contains the essence of Tawhid (Divine Unity). Its recitation purifies faith from all forms of shirk (polytheism).",
+      "cross_references": ["Quran 112:1-4", "Deuteronomy 6:4", "Isaiah 44:6"]
+    },
+    {
+      "id": "PRAYER-026",
+      "title": "Surah An-Nas (Mankind) - Protection Prayer",
+      "tradition": "Islamic",
+      "origin": "Holy Quran, Surah 114",
+      "taught_by": "Revealed to Prophet Muhammad (ﷺ)",
+      "languages": {
+        "arabic": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ\nمَلِكِ النَّاسِ\nإِلَٰهِ النَّاسِ\nمِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ\nالَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ\nمِنَ الْجِنَّةِ وَالنَّاسِ",
+        "transliteration": "Qul a'udhu bi Rabbin-nas\nMalikin-nas\nIlahin-nas\nMin sharril waswaasil khannas\nAlladhi yuwaswisu fi sudoorin-nas\nMinal jinnati wannas",
+        "english": "Say: I seek refuge in the Lord of mankind,\nThe King of mankind,\nThe God of mankind,\nFrom the evil of the retreating whisperer,\nWho whispers in the breasts of mankind,\nFrom among jinn and mankind."
+      },
+      "meaning": "A prayer seeking divine protection from the evil whispers that cause doubt, fear, and spiritual harm.",
+      "spiritual_significance": "One of the two 'protection surahs' (with Al-Falaq), recited for protection from spiritual and psychological harm. The three divine attributes (Lord, King, God) represent complete sovereignty over all creation.",
+      "cross_references": ["Quran 114:1-6", "Ephesians 6:11-12", "1 Peter 5:8"]
+    },
+    {
+      "id": "PRAYER-027",
+      "title": "Prayer of St. Francis",
+      "tradition": "Christian (Catholic)",
+      "origin": "Attributed to St. Francis of Assisi (c. 1181-1226)",
+      "taught_by": "St. Francis of Assisi",
+      "languages": {
+        "english": "Lord, make me an instrument of Your peace:\nWhere there is hatred, let me sow love;\nWhere there is injury, pardon;\nWhere there is doubt, faith;\nWhere there is despair, hope;\nWhere there is darkness, light;\nWhere there is sadness, joy.\n\nO Divine Master, grant that I may not so much seek\nTo be consoled as to console,\nTo be understood as to understand,\nTo be loved as to love.\nFor it is in giving that we receive,\nIt is in pardoning that we are pardoned,\nIt is in dying that we are born to eternal life.",
+        "shona": "Ishe, ndiitei mudziyo werugare rwenyu:\nPanehasha, regai ndidyare rudo;\nPanokuvadzwa, kukanganwira;\nPanekushupika, kutenda;\nPanekuora mwoyo, tariro;\nPanerima, chiedza;\nPanekusuwa, mufaro.\n\nHaiwa Tenzi Wokudenga, ndipei kuti ndirege kutsvaka\nKunyaradzwa sokunyaradza,\nKunzwisiswa sekunzwisisa,\nKudikanwa sekuda.\nNokuti mukupa ndimo matinogamuchira,\nMukukanganwira ndimo matinoregeredzwa,\nMukufa ndimo matinoberekwa kuupenyu husingaperi."
+      },
+      "meaning": "A prayer of self-surrender seeking to be a channel of divine peace, love, and healing to others.",
+      "spiritual_significance": "This prayer embodies the paradoxes of the spiritual life: receiving through giving, healing through forgiving, living through dying to self. It represents the highest call to selfless service.",
+      "cross_references": ["Matthew 5:9", "Galatians 5:22-23", "John 12:24-25"]
+    },
+    {
+      "id": "PRAYER-028",
+      "title": "Serenity Prayer",
+      "tradition": "Christian (Protestant)",
+      "origin": "Reinhold Niebuhr (1892-1971)",
+      "taught_by": "Reinhold Niebuhr, American theologian",
+      "languages": {
+        "english": "God, grant me the serenity to accept the things I cannot change,\nThe courage to change the things I can,\nAnd the wisdom to know the difference.\n\nLiving one day at a time,\nEnjoying one moment at a time,\nAccepting hardship as a pathway to peace,\nTaking, as Jesus did, this sinful world as it is,\nNot as I would have it,\nTrusting that You will make all things right\nIf I surrender to Your will,\nSo that I may be reasonably happy in this life\nAnd supremely happy with You forever in the next.",
+        "shona": "Mwari, ndipei rugare rwekugamuchira zvinhu zvandisingagoni kushandura,\nUshingi hwekushandura zvinhu zvandinogona,\nNouchenjeri hwekuziva musiyano.\n\nKurarama zuva rimwe chete panguva,\nKufadzwa nenguva imwe chete panguva,\nKugamuchira kutambudzika senzira yerugare,\nKutora, sezvakaita Jesu, nyika ino yechivi sezvairi,\nKwete sezvandaida kuti ive,\nNdichivimba kuti muchaita zvinhu zvose zvakarurama\nKana ndikakuzviisai kuda kwenyu,\nKuti ndigone kuva wakafara zvakakwana muupenyu uhwu\nUye wakafara kwazvo nemi nokusingaperi mune unotevera."
+      },
+      "meaning": "A prayer for peace, courage, and wisdom in facing life's challenges, distinguishing between what can and cannot be changed.",
+      "spiritual_significance": "Widely adopted by recovery movements, this prayer teaches radical acceptance combined with responsible action. It embodies the balance between surrender and effort in spiritual growth.",
+      "cross_references": ["Philippians 4:6-7", "Ecclesiastes 3:1-8", "Matthew 6:34"]
+    },
+    {
+      "id": "PRAYER-029",
+      "title": "Chinamoto chaBaba Johani (Prayer of Baba Johani)",
+      "tradition": "Masowe/African Apostolic",
+      "origin": "Johane Masowe tradition, Zimbabwe",
+      "taught_by": "Baba Johani Masowe (Shonhiwa Masedza, c. 1914-1973)",
+      "languages": {
+        "shona": "Mwari Baba, Mutongi weZuva neUsiku,\nMukuru weMweya, Musiki weZvose,\nNdinouya pamberi penyu namanheru ano,\nMwoyo wangu wakashama senyika yaoma.\nNdidzoserei kumvura yeupenyu,\nNdiregererei zvatakakutadzirai,\nNdichengetedzei kubva kumweya yakaipa.\n\nNemi makatuma Mweya Mutsvene,\nMweya unotaura nenzwi risinganzwiki,\nMweya unoratidza zvisingaonekwi.\nNdizadzai neMweya wenyu,\nKuti ndifambe munzira yechokwadi,\nNzira yaMose naEria,\nNzira yaIshe wedu Jesu Kristu.\n\nPasi pose pauri, Baba,\nKudenga nepasirese pauri,\nMakomo nemvura zvakateerera izwi renyu.\nNeniwo ndinoteerera.\nNdinogamuchira kuda kwenyu.\nAmeni.",
+        "english": "God the Father, Judge of Day and Night,\nGreat One of the Spirit, Creator of All,\nI come before You this evening,\nMy heart is open like dry land.\nRestore me to the waters of life,\nForgive us where we have wronged You,\nProtect me from evil spirits.\n\nYou who sent the Holy Spirit,\nThe Spirit that speaks with an inaudible voice,\nThe Spirit that shows what is unseen.\nFill me with Your Spirit,\nThat I may walk in the way of truth,\nThe way of Moses and Elijah,\nThe way of our Lord Jesus Christ.\n\nEverywhere on earth You are, Father,\nHeaven and earth are under You,\nMountains and waters obey Your voice.\nI too obey.\nI accept Your will.\nAmen."
+      },
+      "meaning": "A prayer invoking God's restoration, forgiveness, and protection, acknowledging the Holy Spirit's guidance in the tradition of biblical prophets.",
+      "spiritual_significance": "Baba Johani Masowe founded the African Apostolic church movement, blending biblical faith with African spiritual practice. This prayer reflects the emphasis on Spirit-led living, prophetic vision, and harmony with creation.",
+      "cross_references": ["Joel 2:28-29", "Acts 2:17-18", "Psalm 51"]
+    },
+    {
+      "id": "PRAYER-030",
+      "title": "Spell for Coming Forth by Day",
+      "tradition": "Ancient Egyptian (Kemetic)",
+      "origin": "Papyrus of Ani, Chapter 72",
+      "taught_by": "Priests of the temple of Ra",
+      "languages": {
+        "english": "I am Yesterday, Today, and Tomorrow,\nAnd I have the power to be born a second time.\nI am the divine hidden Soul\nWho creates the gods and gives sepulchral meals\nTo the denizens of the Duat, Amentet, and heaven.\n\nI am the Rudder of the East, the possessor of two divine faces\nWherein the beams are seen.\nI am the Lord of those who are raised up from the dead,\nThe Lord who comes forth from the darkness.\n\nOpen for me, O ye who guard the gates!\nThe earth opens for me, Geb, Lord of the gods, has opened his jaws;\nMy eyes which were closed are opened,\nMy limbs which were bound are released.\n\nThoth has come fully equipped with words of power.\nI am Horus, the elder son of Osiris.\nI am Yesterday, and I know Tomorrow!"
+      },
+      "meaning": "A spell enabling the deceased to move freely between the world of the living and the realm of the dead, 'coming forth by day' to revisit the earth.",
+      "spiritual_significance": "This spell represents the ultimate victory over death - the ability to exist in both worlds freely. 'Coming forth by day' is the Egyptian term for resurrection, the title of the entire Book of the Dead.",
+      "cross_references": ["Papyrus of Ani Chapter 72", "John 11:43-44", "Revelation 1:18"]
+    },
+    {
+      "id": "PRAYER-031",
+      "title": "Prayer of Transformation into the Golden Falcon",
+      "tradition": "Ancient Egyptian (Kemetic)",
+      "origin": "Papyrus of Ani, Chapter 77",
+      "taught_by": "Temple scribes",
+      "languages": {
+        "english": "I have risen! I have gathered myself together like the beautiful golden falcon\nWhich has the head of a benu-bird.\nRa enters in to hear my words.\nI have settled myself among the great gods\nWho dwell in the Field of Offerings.\n\nI seize the moment; I fly as a falcon!\nI scream as the goose Geb.\nI fly and alight on the path of the pure spirits\nAt the great festival.\n\nWhat I abominate, I shall not eat.\nWhat I abominate is excrement; I shall not eat it.\nWhat I abominate is filth of every kind; I shall not eat it.\nNot shall it come to my hands, nor shall I step upon it with my sandals.\n\nI am purified! I am transformed!\nI have become the golden falcon,\nBorn of the great mother,\nSon of the morning sun!"
+      },
+      "meaning": "A transformation spell allowing the soul to take the form of a divine golden falcon, symbol of Horus and royal power.",
+      "spiritual_significance": "The falcon represented the soul's ability to soar above earthly limitations. This transformation granted the deceased divine power and the ability to travel freely through all realms.",
+      "cross_references": ["Papyrus of Ani Chapter 77", "Isaiah 40:31", "Psalm 103:5"]
+    },
+    {
+      "id": "PRAYER-032",
+      "title": "The Ba Soul Prayer",
+      "tradition": "Ancient Egyptian (Kemetic)",
+      "origin": "Papyrus of Ani, Chapter 89",
+      "taught_by": "Priests of Abydos",
+      "languages": {
+        "english": "O you soul-bringers who bring souls,\nWho build up souls, who give souls,\nWho are over the created things of Ra,\nWho are established on your places,\nWho make your speech firm!\n\nMay my Ba soul come to me from wherever it may be.\nIf there be delay in bringing my Ba soul to me,\nYou will find the Eye of Horus standing up against you,\nLike those watchers who watch the eye.\n\nMy Ba has come back to me;\nMy shade has come back to me;\nI am equipped as a living Ba!\nI am a Ba that is greater than all other Ba souls.\nMy Ba lives!\nMy spirit lives!\nI am living forever!"
+      },
+      "meaning": "A prayer for the reunion of the Ba soul with the body, essential for resurrection and continued existence after death.",
+      "spiritual_significance": "The Egyptians believed the Ba (personality/soul) separated from the body at death but needed to reunite for resurrection. This prayer ensures the soul's return, making eternal life possible.",
+      "cross_references": ["Papyrus of Ani Chapter 89", "1 Thessalonians 5:23", "Ecclesiastes 12:7"]
+    },
+    {
+      "id": "PRAYER-033",
+      "title": "Prayer at the Fields of Hetep (Paradise)",
+      "tradition": "Ancient Egyptian (Kemetic)",
+      "origin": "Papyrus of Ani, Chapter 110",
+      "taught_by": "Temple priests of Osiris",
+      "languages": {
+        "english": "I know the Field of Reeds of Ra.\nThe height of its barley is four cubits,\nIts ear is one cubit, its stalk is three cubits.\nIts emmer wheat is seven cubits,\nIts ear is two cubits, its stalk is five cubits.\n\nIt is the spirits, each nine cubits in their height,\nWho reap it by the side of the Eastern Souls.\nI know the Eastern Souls: they are Horakhty, the Khepri-Calf,\nAnd the Morning Star.\n\nI have come into the Fields of Hetep,\nThe garden of the great god.\nI breathe the wind of the north among the palm trees.\nI eat bread of the Imperishable Stars.\nI drink water from the cool oasis.\n\nI am at peace in this beautiful place.\nMy offerings shall not fail.\nMy spirit shall not hunger.\nI shall live forever in the presence of the Great Ones!"
+      },
+      "meaning": "A vision of paradise - the Field of Reeds (Sekhet Aaru) where the blessed dead live in eternal abundance, performing no labor but enjoying endless provision.",
+      "spiritual_significance": "The Field of Hetep (Peace/Offerings) represents the Egyptian concept of heaven - an idealized Egypt with abundant harvests, cool breezes, and the company of the blessed. It is the reward for living according to Ma'at.",
+      "cross_references": ["Papyrus of Ani Chapter 110", "Revelation 22:1-5", "Isaiah 65:21-25"]
+    },
+    {
+      "id": "PRAYER-034",
+      "title": "Prayer Against the Second Death",
+      "tradition": "Ancient Egyptian (Kemetic)",
+      "origin": "Papyrus of Ani, Chapter 175",
+      "taught_by": "Thoth, the divine scribe",
+      "languages": {
+        "english": "O Thoth, what is it that has happened to the divine children?\nThey have stirred up strife, they have done wrong,\nThey have created rebellion, they have made slaughter,\nThey have caused trouble: truly in all their doings\nThe mighty have worked against the weak.\n\nO Thoth, grant that I may not look upon the second death.\nI shall not die a second time.\nI have made my place far from all who would harm me.\nThe crocodile shall not seize me,\nThe serpent shall not strike me,\nNo foe shall approach me.\n\nFor I am one who knows the mystery!\nI am one who has passed through the gate!\nI am one who has eaten of the tree!\nI shall not die the death of the second death!\nI am established forever in the fields of Ra!\nMy name shall not be destroyed!\nI shall live, I shall live!\nI shall not die, I shall not die!"
+      },
+      "meaning": "A prayer for protection from the 'second death' - complete spiritual annihilation - which was the ultimate fear of the Egyptians.",
+      "spiritual_significance": "The 'second death' meant the total destruction of the soul, erasure from existence. This prayer invokes protection from this fate through knowledge of divine mysteries and passage through sacred gates.",
+      "cross_references": ["Papyrus of Ani Chapter 175", "Revelation 2:11", "Revelation 20:14"]
+    },
+    {
+      "id": "PRAYER-035",
+      "title": "Modeh Ani (Morning Gratitude Prayer)",
+      "tradition": "Jewish",
+      "origin": "Medieval Jewish prayer books",
+      "taught_by": "Jewish sages",
+      "languages": {
+        "hebrew": "מוֹדֶה אֲנִי לְפָנֶיךָ מֶלֶךְ חַי וְקַיָּם שֶׁהֶחֱזַרְתָּ בִּי נִשְׁמָתִי בְּחֶמְלָה רַבָּה אֱמוּנָתֶךָ",
+        "transliteration": "Modeh ani l'fanecha, Melech chai v'kayam, shehechezarta bi nishmati b'chemla, raba emunatecha.",
+        "english": "I offer thanks before You, living and eternal King,\nFor You have mercifully restored my soul within me;\nYour faithfulness is great."
+      },
+      "meaning": "A prayer of gratitude recited immediately upon waking, thanking God for restoring the soul after the 'little death' of sleep.",
+      "spiritual_significance": "In Jewish thought, sleep is compared to death, and waking to resurrection. This prayer begins the day with gratitude, recognizing that each new day is a divine gift.",
+      "cross_references": ["Lamentations 3:22-23", "Psalm 92:2", "Psalm 30:12"]
+    },
+    {
+      "id": "PRAYER-036",
+      "title": "Adon Olam (Lord of the Universe)",
+      "tradition": "Jewish",
+      "origin": "Medieval Jewish liturgy",
+      "taught_by": "Attributed to Solomon ibn Gabirol (11th century)",
+      "languages": {
+        "hebrew": "אֲדוֹן עוֹלָם אֲשֶׁר מָלַךְ בְּטֶרֶם כָּל יְצִיר נִבְרָא\nלְעֵת נַעֲשָׂה בְחֶפְצוֹ כֹּל אֲזַי מֶלֶךְ שְׁמוֹ נִקְרָא\nוְאַחֲרֵי כִּכְלוֹת הַכֹּל לְבַדּוֹ יִמְלוֹךְ נוֹרָא\nוְהוּא הָיָה וְהוּא הֹוֶה וְהוּא יִהְיֶה בְּתִפְאָרָה",
+        "transliteration": "Adon olam asher malach, b'terem kol y'tzir nivra.\nL'et na'asah v'cheftzo kol, azai melech sh'mo nikra.\nV'acharei kichlot hakol, l'vado yimloch nora.\nV'hu haya, v'hu hoveh, v'hu yih'yeh b'tifara.",
+        "english": "Lord of the universe who reigned before any creature was created.\nWhen all was made by His will, then was His name proclaimed King.\nAnd after all shall cease to be, alone He will reign in awe.\nHe was, He is, and He shall be in glory."
+      },
+      "meaning": "A hymn declaring God's eternal sovereignty - before creation, during existence, and after all ends.",
+      "spiritual_significance": "This prayer encompasses all of time and existence, declaring God's eternal nature. It is sung both at the beginning and end of services, framing worship in the context of eternity.",
+      "cross_references": ["Revelation 1:8", "Isaiah 44:6", "Psalm 90:2"]
+    },
+    {
+      "id": "PRAYER-037",
+      "title": "Salat al-Istikhara (Guidance Prayer)",
+      "tradition": "Islamic",
+      "origin": "Hadith of Prophet Muhammad (ﷺ)",
+      "taught_by": "Prophet Muhammad (ﷺ)",
+      "languages": {
+        "arabic": "اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ فَإِنَّكَ تَقْدِرُ وَلَا أَقْدِرُ وَتَعْلَمُ وَلَا أَعْلَمُ وَأَنْتَ عَلَّامُ الْغُيُوبِ اللَّهُمَّ إِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ خَيْرٌ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي فَاقْدُرْهُ لِي وَيَسِّرْهُ لِي ثُمَّ بَارِكْ لِي فِيهِ وَإِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الْأَمْرَ شَرٌّ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي فَاصْرِفْهُ عَنِّي وَاصْرِفْنِي عَنْهُ وَاقْدُرْ لِيَ الْخَيْرَ حَيْثُ كَانَ ثُمَّ أَرْضِنِي بِهِ",
+        "english": "O Allah, I seek Your guidance by virtue of Your knowledge,\nAnd I seek ability by virtue of Your power,\nAnd I ask You of Your great bounty.\nYou have power; I have none.\nAnd You know; I know not.\nYou are the Knower of hidden things.\n\nO Allah, if in Your knowledge this matter is good for me\nIn my religion, my livelihood, and my affairs,\nThen ordain it for me, make it easy for me, and bless it for me.\nAnd if in Your knowledge this matter is bad for me\nIn my religion, my livelihood, and my affairs,\nThen turn it away from me, and turn me away from it,\nAnd ordain for me the good wherever it may be,\nAnd make me content with it."
+      },
+      "meaning": "A prayer seeking divine guidance when facing important decisions, trusting Allah's knowledge over human understanding.",
+      "spiritual_significance": "Istikhara represents complete trust (tawakkul) in Allah. Rather than relying on human wisdom alone, the believer seeks divine direction, accepting that Allah knows what is best.",
+      "cross_references": ["Sahih Bukhari 7:263", "Proverbs 3:5-6", "James 1:5"]
+    },
+    {
+      "id": "PRAYER-038",
+      "title": "Du'a for Parents",
+      "tradition": "Islamic",
+      "origin": "Holy Quran, Surah Al-Isra 17:24",
+      "taught_by": "Revealed in the Quran",
+      "languages": {
+        "arabic": "رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا",
+        "transliteration": "Rabbi irhamhuma kama rabbayani saghira",
+        "english": "My Lord, have mercy upon them as they brought me up when I was small."
+      },
+      "meaning": "A prayer asking God to show mercy to one's parents in return for their care during one's childhood.",
+      "spiritual_significance": "Honoring parents is among the highest duties in Islam, mentioned immediately after worship of Allah. This prayer is a daily expression of gratitude and intercession for parents.",
+      "cross_references": ["Quran 17:24", "Exodus 20:12", "Ephesians 6:2-3"]
+    },
+    {
+      "id": "PRAYER-039",
+      "title": "Prayer of Manasseh",
+      "tradition": "Jewish/Christian (Apocrypha)",
+      "origin": "Ancient Jewish text (2nd century BCE)",
+      "taught_by": "Attributed to King Manasseh during captivity",
+      "languages": {
+        "english": "O Lord Almighty, God of our ancestors,\nOf Abraham and Isaac and Jacob and of their righteous offspring;\nYou who made heaven and earth with all their order;\nWho bound the sea by Your word of command,\nWho confined the deep and sealed it with Your terrible and glorious name.\n\nI have sinned, O Lord, I have sinned,\nAnd I know my transgressions.\nI earnestly implore You: Forgive me, O Lord, forgive me!\nDo not destroy me with my transgressions!\n\nFor You, O Lord, are the God of those who repent,\nAnd in me You will manifest Your goodness;\nFor, unworthy as I am, You will save me according to Your great mercy,\nAnd I will praise You continually all the days of my life.\nFor all the host of heaven sings Your praise,\nAnd Yours is the glory forever. Amen."
+      },
+      "meaning": "A prayer of deep repentance from one who committed great sins but sought God's mercy.",
+      "spiritual_significance": "Manasseh was the most wicked king of Judah, yet according to tradition he repented while in captivity. This prayer shows that no sin is beyond God's forgiveness for the truly penitent.",
+      "cross_references": ["2 Chronicles 33:12-13", "Psalm 51", "Luke 15:11-24"]
+    },
+    {
+      "id": "PRAYER-040",
+      "title": "Om Mani Padme Hum",
+      "tradition": "Buddhist (Tibetan)",
+      "origin": "Karandavyuha Sutra",
+      "taught_by": "Avalokiteshvara (Bodhisattva of Compassion)",
+      "languages": {
+        "tibetan": "ཨོཾ་མ་ཎི་པདྨེ་ཧཱུྃ",
+        "sanskrit": "ॐ मणिपद्मे हूँ",
+        "transliteration": "Om Mani Padme Hum",
+        "english": "Om, the Jewel in the Lotus, Hum"
+      },
+      "meaning": "A mantra invoking the blessing of Chenrezig (Avalokiteshvara), embodying compassion for all beings.",
+      "spiritual_significance": "Each syllable purifies one of the six realms of existence and represents a different aspect of the path to enlightenment. It is the most widely used mantra in Tibetan Buddhism, generating compassion.",
+      "cross_references": ["Karandavyuha Sutra", "1 John 4:8", "Micah 6:8"]
+    },
+    {
+      "id": "PRAYER-041",
+      "title": "Namo Amituofo (Homage to Amitabha Buddha)",
+      "tradition": "Buddhist (Pure Land)",
+      "origin": "Pure Land sutras",
+      "taught_by": "Amitabha Buddha",
+      "languages": {
+        "chinese": "南無阿彌陀佛",
+        "sanskrit": "नमो अमिताभाय",
+        "transliteration": "Namo Amituofo / Namo Amitābhāya",
+        "english": "Homage to the Buddha of Infinite Light"
+      },
+      "meaning": "A devotional phrase expressing faith in Amitabha Buddha and aspiration to be reborn in his Pure Land.",
+      "spiritual_significance": "In Pure Land Buddhism, sincere recitation of this name ensures rebirth in Amitabha's Western Paradise, where conditions are ideal for achieving enlightenment. It represents the 'easy path' to liberation.",
+      "cross_references": ["Larger Sukhavativyuha Sutra", "John 14:2-3", "Psalm 27:4"]
+    },
+    {
+      "id": "PRAYER-042",
+      "title": "Munamato weKutenda (Prayer of Thanksgiving)",
+      "tradition": "Shona/African Traditional",
+      "origin": "Traditional Shona spirituality",
+      "taught_by": "Ancestral wisdom keepers (Svikiro)",
+      "languages": {
+        "shona": "Maita Mwari Baba,\nMaita Musikavanhu,\nMaita Nyadenga,\nMaita Samasimba.\n\nTinokutendai nezvose zvamakatiitira:\nNemvura yekumwa neyekudiridza,\nNezviyo zvinokura muminda,\nNemhuri yedu nenyika yedu.\n\nVadzimu vedu, madzibaba namadzimbuya,\nTinokutendai nokutichengeta,\nNokutitungamirira munzira dzeupenyu,\nNokutipa njere nokuchenjera.\n\nNgakuve neMwari nekusingaperi.\nAmeni.",
+        "english": "Thank You, God the Father,\nThank You, Creator of Humanity,\nThank You, Great One of Heaven,\nThank You, Almighty.\n\nWe thank You for all You have done for us:\nFor water to drink and to irrigate,\nFor grain that grows in the fields,\nFor our family and our land.\n\nOur ancestors, fathers and grandmothers,\nWe thank you for protecting us,\nFor guiding us in the ways of life,\nFor giving us wisdom and understanding.\n\nMay it be with God forever.\nAmen."
+      },
+      "meaning": "A Shona prayer of thanksgiving honoring both God (Mwari) and the ancestors who serve as intermediaries between the living and the divine.",
+      "spiritual_significance": "Traditional Shona spirituality recognizes Mwari as the supreme creator while honoring ancestors (vadzimu) as spiritual guides. This prayer reflects the African worldview of interconnection between the living, the dead, and the divine.",
+      "cross_references": ["Psalm 100", "Hebrews 12:1", "1 Thessalonians 5:18"]
+    }
+  ]
+}
