@@ -1,0 +1,287 @@
+{
+  "metadata": {
+    "title": "The Papyrus of Ani",
+    "alt_titles": ["Egyptian Book of the Dead", "Per Em Hru", "Coming Forth by Day", "Spells of Going Forth by Day"],
+    "date": "1240 BCE",
+    "scribe": "Ani, Royal Scribe of Thebes",
+    "translator": "E.A. Wallis Budge",
+    "description": "The finest surviving example of the Egyptian Book of the Dead, containing spells and hymns for the afterlife journey"
+  },
+  "spells": [
+    {
+      "chapter": 1,
+      "title": "For the Day of Burial",
+      "section": "Entering the Tomb",
+      "text": "The Osiris Ani saith: Homage to thee, O thou who dwellest in the Set-Amentet! The Osiris, the scribe Ani, triumphant, knoweth thee. He knoweth thy name. Deliver thou him from the worms which are in the House of Osiris, which live upon the bodies of men and women, and feed upon their blood.",
+      "tags": ["burial", "protection", "worms", "osiris"]
+    },
+    {
+      "chapter": 2,
+      "title": "Going Out Into the Day",
+      "section": "Entering the Tomb",
+      "text": "I am the Great One, the son of the Great One. I am Fire, the son of Fire, to whom was given his head after it had been cut off. The head of Osiris shall not be taken from him, and my head shall not be taken from me. I am knit together, and made whole and complete.",
+      "tags": ["resurrection", "wholeness", "head", "restoration"]
+    },
+    {
+      "chapter": 4,
+      "title": "Passing on the Upper Road of Rosetjau",
+      "section": "Entering the Tomb",
+      "text": "I am the mighty one of the mighty ones. I am the owner of the paths through the land of Rosetjau. The ways which are in the sky are opened to me.",
+      "tags": ["roads", "rosetjau", "paths", "sky"]
+    },
+    {
+      "chapter": 5,
+      "title": "Not Doing Work in the Realm of the Dead",
+      "section": "Entering the Tomb",
+      "text": "O Osiris Ani, thou shalt not work in the realm of the dead. All work that is done there, thou shalt not be called upon to do. Thy name shall be spoken among the gods who make things to flourish.",
+      "tags": ["work", "labor", "rest", "realm of dead"]
+    },
+    {
+      "chapter": 6,
+      "title": "The Shabti Spell",
+      "section": "Entering the Tomb",
+      "text": "O thou Shabti, if the Osiris Ani be called upon to do any work which is to be done in the realm of the dead, to till the fields, to water the meadows, to carry sand from the East to the West, let thy answer be: Here am I, I will do it.",
+      "tags": ["shabti", "servants", "work", "afterlife labor"]
+    },
+    {
+      "chapter": 9,
+      "title": "Opening the Tomb",
+      "section": "Entering the Tomb",
+      "text": "I open the doors of the sky. I throw open the doors of the earth. I make my way through the portals of the horizon. My name is established in the hearts of all men, and my Ba-soul cometh forth into the day.",
+      "tags": ["doors", "sky", "earth", "horizon", "ba soul"]
+    },
+    {
+      "chapter": 15,
+      "title": "Hymn to Ra at Sunrise",
+      "section": "Hymns",
+      "text": "Homage to thee, O Ra, at thy tremendous rising! Thou risest! Thou shinest! The heavens are rolled aside, and thou art the King of the Gods. Thou art the All-encompassing, from thee proceed all things. Thou art the sole and only One who came into being in the beginning of time.",
+      "tags": ["ra", "sun", "sunrise", "hymn", "creation", "gods"]
+    },
+    {
+      "chapter": 17,
+      "title": "Description of Atum and Creation",
+      "section": "Regeneration",
+      "text": "I am Atum when I was alone in Nun. I am Ra in his first splendour, when he came to rule that which he had made. I am the great god who came into being of himself, Nun, who created his name, Lord of the Ennead. I am Yesterday, and I know Tomorrow.",
+      "tags": ["atum", "nun", "creation", "primordial waters", "yesterday", "tomorrow"]
+    },
+    {
+      "chapter": 21,
+      "title": "Giving a Mouth to the Deceased",
+      "section": "Regeneration",
+      "text": "I am Osiris, Lord of the underworld. Thy mouth is given unto thee. Thy mouth is opened by Ptah with his iron chisel, with which he opened the mouths of the gods. I am Sekhmet-Bast, I sit beside him, in the great winds of heaven.",
+      "tags": ["mouth", "ptah", "speech", "sekhmet", "bast"]
+    },
+    {
+      "chapter": 23,
+      "title": "Opening of the Mouth Ritual",
+      "section": "Regeneration",
+      "text": "My mouth is opened by Ptah, my mouth's bonds are loosed by my city-god. Thoth cometh laden with magic to loose the wrappings, the wrappings of Set which bind my mouth. Atum hath loosened them, the words which close my mouth.",
+      "tags": ["opening mouth", "ptah", "thoth", "set", "atum", "ritual"]
+    },
+    {
+      "chapter": 26,
+      "title": "Giving a Heart to the Deceased",
+      "section": "Regeneration",
+      "text": "My heart, my mother! My heart, my mother! My heart of my transformations! Let not any god stand up against me as a witness. Let not opposition arise against me from the Tribunal. Let there be no parting of thee from me in the presence of him who keepeth the Balance!",
+      "tags": ["heart", "mother", "tribunal", "balance", "witness"]
+    },
+    {
+      "chapter": 30,
+      "title": "Preventing the Heart from Being Taken",
+      "section": "Regeneration",
+      "text": "O my heart which I had from my mother! O my heart which I had upon earth! Do not rise up against me as a witness! Do not oppose me in the Tribunal! Do not be hostile to me in the presence of the Keeper of the Balance!",
+      "tags": ["heart", "tribunal", "balance", "protection", "judgment"]
+    },
+    {
+      "chapter": 33,
+      "title": "Repelling Snakes",
+      "section": "Protection",
+      "text": "Get back, thou snake! Get back, thou crawler! Get back from me, for I am Maat! The words of power are in my mouth, given to me by Ra himself. Get back from him who is in his egg! The face of the god is against thee!",
+      "tags": ["snakes", "protection", "maat", "ra", "words of power"]
+    },
+    {
+      "chapter": 42,
+      "title": "Identification with the Gods",
+      "section": "Transformation",
+      "text": "My hair is Nun. My face is Ra. My eyes are Hathor. My ears are Wepwawet. My nose is She who presides over her lotus leaf. My lips are Anubis. My teeth are Selket. My neck is Isis the Divine. My arms are the Ram, Lord of Mendes.",
+      "tags": ["divine body", "identification", "gods", "nun", "ra", "hathor", "anubis", "isis"]
+    },
+    {
+      "chapter": 63,
+      "title": "Drinking Water in the Underworld",
+      "section": "Provisions",
+      "text": "Open to me! I am the Ba of Osiris. Let me drink of the water. Let the water satisfy my thirst. I am the Great One whose name is unknown. I will drink, and I will not die of thirst in the Duat.",
+      "tags": ["water", "thirst", "duat", "underworld", "provisions"]
+    },
+    {
+      "chapter": 72,
+      "title": "Going Out by Day",
+      "section": "Transformation",
+      "text": "I am he who cometh forth by day. The doors of heaven are opened for me. The doors of earth are opened for me. I have come forth as a living soul. I am Ra. I appear in the form of a Benu-bird.",
+      "tags": ["day", "going forth", "doors", "ra", "benu bird", "phoenix"]
+    },
+    {
+      "chapter": 76,
+      "title": "Transformation into Any Form",
+      "section": "Transformation",
+      "text": "I am the lord of transformations. I am able to change myself into any form whatsoever. I am the Double Lion, who is older than all the gods. I am Yesterday and I know Tomorrow.",
+      "tags": ["transformation", "shape-shifting", "double lion", "aker"]
+    },
+    {
+      "chapter": 77,
+      "title": "Transformation into a Golden Falcon",
+      "section": "Transformation",
+      "text": "I have appeared as a great golden falcon which hath risen up out of its egg. I fly, I alight as a falcon of four cubits across the back. My wings are like green feldspar. I have come forth from the bark of the evening.",
+      "tags": ["falcon", "gold", "transformation", "horus", "flight"]
+    },
+    {
+      "chapter": 78,
+      "title": "Transformation into a Divine Falcon",
+      "section": "Transformation",
+      "text": "Hail, thou who appearest in the heaven, who illuminest the Duat! I am one of the divine beings in heaven. I shine as the lord of the Light.",
+      "tags": ["divine falcon", "heaven", "light", "duat"]
+    },
+    {
+      "chapter": 82,
+      "title": "Transformation into Ptah",
+      "section": "Transformation",
+      "text": "I eat with my mouth, I swallow with my jaws, I am the god Ptah. I sit in the great hall of the Two Truths. Whatever is given to me is that upon which the gods live.",
+      "tags": ["ptah", "eating", "two truths", "transformation"]
+    },
+    {
+      "chapter": 83,
+      "title": "Transformation into a Benu Bird",
+      "section": "Transformation",
+      "text": "I am the Benu-bird, the Ba of Ra, the guide of the gods to the Duat. I came into being from the unformed matter. I came into being like the god Khepera. I have flown up as the primeval bird.",
+      "tags": ["benu", "phoenix", "ra", "khepera", "creation"]
+    },
+    {
+      "chapter": 84,
+      "title": "Transformation into a Heron",
+      "section": "Transformation",
+      "text": "I am the heron, the Ba of Ra. I guide the god to the Duat. The doors of heaven are opened for me. The doors of earth are flung open for me.",
+      "tags": ["heron", "ba", "ra", "doors"]
+    },
+    {
+      "chapter": 85,
+      "title": "Transformation into a Living Soul",
+      "section": "Transformation",
+      "text": "I am the soul of Ra who came forth from Nun, that soul of the god who created Hu. I am the god who creates righteousness. I am the great one of transformations.",
+      "tags": ["living soul", "ra", "nun", "hu", "righteousness"]
+    },
+    {
+      "chapter": 86,
+      "title": "Transformation into a Swallow",
+      "section": "Transformation",
+      "text": "I am a swallow, I am a swallow. I am the Scorpion, the daughter of Ra! Hail, ye gods, whose smell is sweet. Hail, ye gods of the flame! Hail, ye who dwell in the Duat!",
+      "tags": ["swallow", "scorpion", "ra", "duat"]
+    },
+    {
+      "chapter": 87,
+      "title": "Transformation into a Serpent",
+      "section": "Transformation",
+      "text": "I am a serpent, long of years, slumbering and being born each day. I am a serpent which is in the uttermost parts of the earth. I slumber and I am born, I am renewed, I grow young each day.",
+      "tags": ["serpent", "renewal", "rebirth", "years"]
+    },
+    {
+      "chapter": 88,
+      "title": "Transformation into a Crocodile",
+      "section": "Transformation",
+      "text": "I am the crocodile which dwelleth in awe. I am the crocodile, and I seize with violence. I am the great Fish in Kamui. I am the Lord of salutations in Sekhem.",
+      "tags": ["crocodile", "sobek", "fish", "sekhem"]
+    },
+    {
+      "chapter": 89,
+      "title": "Reuniting the Ba with the Body",
+      "section": "Regeneration",
+      "text": "O ye keepers of the doors, make a way for the Ba of the Osiris Ani. Let his Ba go wherever it will. Let his Ba see his body. Let his Ba rest upon his mummy.",
+      "tags": ["ba", "body", "mummy", "reunion", "soul"]
+    },
+    {
+      "chapter": 110,
+      "title": "The Fields of Hetep (Paradise)",
+      "section": "Afterlife",
+      "text": "This is the land of the blessed, where the wheat grows seven cubits high and the emmer grows nine cubits. The spirits who dwell there are nine cubits in height. Here the Osiris Ani reaps and gathers in the barley. Here he eats and drinks and does all that he did upon earth.",
+      "tags": ["hetep", "paradise", "fields", "wheat", "harvest", "blessed"]
+    },
+    {
+      "chapter": 125,
+      "title": "The Weighing of the Heart - Negative Confession",
+      "section": "Judgment",
+      "text": "Hail to thee, Great God, Lord of the Two Truths! I have come before thee, my Lord, I have been brought to see thy beauties. I know thee, I know the names of the Forty-Two Gods who are with thee in this Hall of the Two Truths, who live on those who cherish evil, who swallow their blood on that day of reckoning in the presence of Un-Nefer. Behold, I have come to thee, I have brought thee truth, I have repelled falsehood for thee.",
+      "tags": ["judgment", "weighing heart", "maat", "confession", "forty-two gods", "tribunal", "truth"]
+    },
+    {
+      "chapter": 125,
+      "title": "The Negative Confession - Declarations",
+      "subtitle": "Part 2",
+      "section": "Judgment",
+      "text": "I have not done falsehood. I have not robbed. I have not killed men. I have not stolen grain. I have not been covetous. I have not stolen offerings. I have not done violence. I have not purloined the property of the god. I have not told lies. I have not taken food unlawfully. I have not cursed. I have not committed adultery. I have not made anyone weep.",
+      "tags": ["negative confession", "declarations", "sin", "judgment", "moral code"]
+    },
+    {
+      "chapter": 125,
+      "title": "Address to the Heart",
+      "subtitle": "Part 3",
+      "section": "Judgment",
+      "text": "O my heart which I had from my mother! O my heart of my different ages! Do not stand up as a witness against me, do not be opposed to me in the tribunal, do not be hostile to me in the presence of the Keeper of the Balance, for you are my ka which was in my body, the protector who made my members hale.",
+      "tags": ["heart", "judgment", "tribunal", "balance", "ka"]
+    },
+    {
+      "chapter": 144,
+      "title": "The Seven Gates",
+      "section": "Underworld",
+      "text": "The First Gate: Her name is Mistress of Terror. The Second Gate: Her name is Mistress of Heaven. The Third Gate: Her name is Mistress of the Altar. The Fourth Gate: Her name is Knife which Cutteth. The Fifth Gate: Her name is Fiery One. The Sixth Gate: Her name is Mistress of Light. The Seventh Gate: Her name is Veiler of the Weary One.",
+      "tags": ["gates", "guardians", "underworld", "duat", "seven"]
+    },
+    {
+      "chapter": 148,
+      "title": "The Seven Celestial Cows and the Bull",
+      "section": "Provisions",
+      "text": "O ye seven cows and your Bull, who bring nourishment to the spirits, grant ye food and drink to the Osiris Ani. Feed his Ka. Let him be among the followers of the Great God. Let him become a spirit equipped in the Duat.",
+      "tags": ["seven cows", "bull", "provision", "ka", "nourishment"]
+    },
+    {
+      "chapter": 149,
+      "title": "The Fourteen Mounds of the Underworld",
+      "section": "Underworld",
+      "text": "These are the fourteen mounds of the holy land, the secret places of the Duat. The First Mound is the Mountain of the West. The Second Mound is the Lake of Fire. Each has its guardians and its paths known only to the justified dead.",
+      "tags": ["fourteen mounds", "underworld", "duat", "geography"]
+    },
+    {
+      "chapter": 151,
+      "title": "Protection of the Mummy in the Tomb",
+      "section": "Protection",
+      "text": "I am thy protection, O Osiris Ani. I am he who repels the enemy from thee. I am Anubis, who is upon his mountain. I stand guard over thy mummy. I protect thy body for ever and ever.",
+      "tags": ["mummy", "protection", "anubis", "tomb", "guard"]
+    },
+    {
+      "chapter": 154,
+      "title": "Preventing the Body from Perishing",
+      "section": "Preservation",
+      "text": "Homage to thee, O my father Osiris! I have come and I have embalmed this my flesh so that my body may not decay. I am whole, even as my father Khepera was whole. Come, strengthen my bones, and make my body not to perish forever.",
+      "tags": ["preservation", "embalming", "khepera", "decay", "body"]
+    },
+    {
+      "chapter": 161,
+      "title": "The Four Winds Giving Breath of Life",
+      "section": "Regeneration",
+      "text": "The North Wind which cometh from Atum is for thy nostrils. The South Wind is for thy ears. The West Wind is for thy eyes. The East Wind is for thy mouth. They give thee breath of life. They cause thee to live forever.",
+      "tags": ["four winds", "breath", "life", "atum", "north", "south", "east", "west"]
+    },
+    {
+      "chapter": 175,
+      "title": "Not Dying a Second Time",
+      "section": "Afterlife",
+      "text": "I shall not die a second time in the Duat. I have been judged and found true of voice. My heart has been weighed and found righteous. I shall live for ever and ever, renewing myself like the moon, returning like the sun.",
+      "tags": ["second death", "judgment", "eternal life", "moon", "sun"]
+    },
+    {
+      "chapter": 185,
+      "title": "Hymn to Osiris",
+      "section": "Hymns",
+      "text": "Homage to thee, Osiris Un-Nefer, thou great god within Abydos, thou king of eternity, thou lord of everlastingness! Thou art he who traverseth millions of years in thy life. Thou art the eldest son of the womb of Nut. Thou wast begotten by Keb. Thou art the lord of the Urrt Crown.",
+      "tags": ["osiris", "un-nefer", "abydos", "eternity", "nut", "keb", "hymn"]
+    }
+  ]
+}
