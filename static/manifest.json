@@ -1,0 +1,42 @@
+{
+  "name": "ABASID 1841 - Throne of Anhu",
+  "short_name": "Throne of Anhu",
+  "description": "ABASID 1841 - Throne of Anhu - Lion of Judah. A spiritual AI chatbot for sacred teachings.",
+  "start_url": "/",
+  "scope": "/",
+  "id": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "background_color": "#0d0d1a",
+  "theme_color": "#d4af37",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/static/icon_ra_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/icon_ra.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/icon_ra_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/static/icon_ra.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["education", "lifestyle", "books"],
+  "lang": "en",
+  "prefer_related_applications": false
+}
